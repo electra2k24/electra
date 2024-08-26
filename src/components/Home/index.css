@@ -66,3 +66,8 @@
     font-family:Teko;
     font-size: 40px;
 }
+
+.right-button:hover{
+    transform:translateY(-10px);
+}
+
