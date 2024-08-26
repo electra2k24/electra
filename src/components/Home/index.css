@@ -1,0 +1,68 @@
+
+
+.bg-container{
+    height:100vh;
+    background-image:url(../../images/money_heist_bg.jpeg);
+    background-size:cover;
+    color:white;
+}
+
+.title{
+    font-family:Compacta-BT;
+    letter-spacing:4px;
+    font-size:90px;
+    margin:0;
+    padding:0;
+}
+
+.Header{
+    display:flex;
+    justify-content:space-around;
+    align-self:center;
+    height:20vh;
+    padding-top:20px;
+}
+
+.info-container{
+    font-family:Kdam Thmor Pro;
+}
+
+.HomePage-Button{
+    display: flex;
+    align-self:center;
+    flex-direction:column;
+}
+
+.HomePage-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    height:80vh;
+    padding-left:20px;
+    padding-right:20px;
+} 
+
+
+.Button-container{
+    display:flex;
+    flex-direction:row;
+    justify-items:space-between;
+    align-items:center;
+}
+
+.left-button{
+    font-family:Teko;
+    color:#8b0415;
+    border: none;
+    background-color:transparent;
+    font-size:50px;
+}
+
+.right-button{
+    background-color:transparent;
+    border:none;
+    color:white;
+    font-family:Teko;
+    font-size: 40px;
+}

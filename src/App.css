@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+p{
+  padding:0;
+  margin:0;
+}
+
+h1{
+  padding:0;
+  margin:0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +49,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Compacta-BT";
+  src: url("./webfonts_Compacta-BT/Compacta-BT.ttf.woff") format("woff"),
+    url("./webfonts_Compacta-BT/Compacta-BT.ttf.svg#Compacta-BT") format("svg"),
+    url("./webfonts_Compacta-BT/Compacta-BT.ttf.eot"),
+    url("./webfonts_Compacta-BT/Compacta-BT.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
 }
