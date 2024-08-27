@@ -1,10 +1,8 @@
+
 .Event-container{
     background-color:black;
     background-size:cover;
-    height:100vh;
-}
-
-.Event-container{
+    min-height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:space-around;
@@ -16,10 +14,21 @@
     width:90%;
 }
 
-.eventdescription-container{
-    border:1px solid white;
-    width:350px;
-    height:150px;
-    border-radius:8px;
-    padding:10px;
+.event{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.eventheader{
+    font-family:Compacta-BT;
+    color:#8b0415;
+    letter-spacing:2px;
+    font-size:40px;
+}
+
+.register-eventlist-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
 }

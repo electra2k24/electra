@@ -5,6 +5,7 @@
   background-position: center;
   display:flex;
   flex-direction:column;
+  justify-content:space-around;
   align-items:center;
 }
 
@@ -21,7 +22,24 @@
 
 
 .about-description{
-    background-color:black;
     color:white;
     justify-self:center;
+}
+
+.aboutheader{
+  font-family:Teko;
+  font-size:40px;
+}
+
+.about-para-container{
+    border:2px solid white;
+    border-radius:8px;
+    padding:20px;
+    height:300px;
+    background-color:#000000BF;
+
+}
+
+.about-para{
+  color:white;
 }

@@ -1,28 +1,40 @@
-import './index.css'
+import "./index.css";
+import AddEventItem from "../AddEventItem";
 
-const Event = () => (
-  <div className="Event-container">
-    <div className="eventlist-container">
-      <h1>Technical Event</h1>
-      <div>
-        <div className="eventdescription-container">
-          <h1>Professor Plan</h1>
-          <p>lorem3</p>
-          <p>10:30</p>
+const Event = (props) => {
+  const { eventList } = props;
+  console.log(eventList[0]);
+
+  return (
+    <div className="Event-container">
+      <div className="eventlist-container">
+        <h1 className="eventheader">
+          Tech<span Style="color:white;">nic</span>al Ev
+          <span Style="color:white;">e</span>nt
+        </h1>
+        <div className="event">
+          <AddEventItem />
+          <AddEventItem />
+          <AddEventItem />
+          <AddEventItem />
+          <AddEventItem />
+        </div>
+      </div>
+      <div className="eventlist-container">
+        <h1 className="eventheader">
+          Non-Tech<span Style="color:white;">nic</span>al Ev
+          <span Style="color:white;">e</span>nt
+        </h1>
+        <div className="event">
+          <AddEventItem />
+          <AddEventItem />
+          <AddEventItem />
+          <AddEventItem />
+          <AddEventItem />
         </div>
       </div>
     </div>
-    <div className="eventlist-container">
-      <h1>Non-Technical Event</h1>
-      <div>
-        <div className="eventdescription-container">
-          <h1>Professor Plan</h1>
-          <p>lorem3</p>
-          <p>10:30</p>
-        </div>
-      </div>
-    </div>
-  </div>
-);
+  );
+};
 
-export default Event
+export default Event;

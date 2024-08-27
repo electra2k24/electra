@@ -82,17 +82,11 @@
   font-size: 60px;
 }
 
-.left-button:hover{
-    font-size:60px;
-}
 
 .right-button:hover{
     transform:translateY(-10px);
 }
 
-.right-button:hover {
-  transform: translateY(-10px);
-}
 
 .right-button {
   background-color: transparent;

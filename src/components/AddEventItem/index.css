@@ -1,0 +1,46 @@
+
+.eventdescription-container{
+    border:2px solid white;
+    width:350px;
+    height:170px;
+    border-radius:6px;
+    padding:10px;
+    margin:10px;
+    margin-left:0;
+    font-family:Teko;
+}
+
+.section{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:100%;
+}
+
+.regsiter-button{
+    background-color:#db0c26;
+    border:none;
+    color:black;
+    font-weight:700;
+    border-radius:5px;
+    height:30px;
+    width:80px;
+    font-size:11px;
+}
+
+.eventinfo{
+    width:70%;
+   word-wrap: break-word;
+}
+
+.event-top-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.event-buttom-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}

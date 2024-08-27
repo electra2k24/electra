@@ -23,7 +23,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
-        <Route exact path="/event" element={<Event />} />
+        <Route exact path="/event" element={<Event eventList={eventList} />} />
       </Routes>
     </BrowserRouter>
   );
