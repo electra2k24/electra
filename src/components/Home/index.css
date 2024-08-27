@@ -5,13 +5,6 @@
     background-image:url(../../images/money_heist_bg.jpeg);
     background-size:cover;
     color:white;
-    background-position:center;
-}
-
-@media screen and (max-width:900px) {    
-    .bg-container{
-    background-image:url(../../images/money_heist_bg_sm.jpeg);
-    }
 }
 
 .title{
@@ -29,16 +22,22 @@
 }
 }
 
-.Header{
-    display:flex;
-    justify-content:space-around;
-    align-self:center;
-    height:20vh;
-    padding-top:20px;
+.Header {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+  height: 20vh;
+  padding-top: 20px;
 }
 
-.info-container{
-    font-family:Kdam Thmor Pro;
+.info-container {
+  font-family: Kdam Thmor Pro;
+}
+
+@media screen and (max-width: 900px) {
+  .info-container {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width:900px) {    
@@ -48,36 +47,39 @@
 }
 
 
-.HomePage-Button{
-    display: flex;
-    align-self:center;
-    flex-direction:column;
+.HomePage-Button {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
 }
 
-.HomePage-container{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items:center;
-    height:80vh;
-    padding-left:20px;
-    padding-right:20px;
-} 
-
-
-.Button-container{
-    display:flex;
-    flex-direction:row;
-    justify-items:space-between;
-    align-items:center;
+.HomePage-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.left-button{
-    font-family:Teko;
-    color:#8b0415;
-    border: none;
-    background-color:transparent;
-    font-size:50px;
+.Button-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+  align-items: center;
+}
+
+.left-button {
+  font-family: Teko;
+  color: #8b0415;
+  border: none;
+  background-color: transparent;
+  font-size: 50px;
+}
+
+.left-button:hover {
+  font-size: 60px;
 }
 
 .left-button:hover{
@@ -88,29 +90,14 @@
     transform:translateY(-10px);
 }
 
-.right-button{
-    background-color:transparent;
-    border:none;
-    color:white;
-    font-family:Teko;
-    font-size: 40px;
+.right-button:hover {
+  transform: translateY(-10px);
 }
 
-@media screen and (max-width:900px) {    
-    .left-button{
-    font-size:25px;
+.right-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: Teko;
+  font-size: 40px;
 }
-.left-button:hover{
-    font-size:30px;
-}
-}
-@media screen and (max-width:900px) {    
-    .right-button{
-    font-size:20px;
-}
-.right-button:hover{
-    transform:translateY(-5px);
-}
-
-}
-

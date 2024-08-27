@@ -1,0 +1,25 @@
+.Event-container{
+    background-color:black;
+    background-size:cover;
+    height:100vh;
+}
+
+.Event-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    color:white;
+}
+
+.eventlist-container{
+    width:90%;
+}
+
+.eventdescription-container{
+    border:1px solid white;
+    width:350px;
+    height:150px;
+    border-radius:8px;
+    padding:10px;
+}
