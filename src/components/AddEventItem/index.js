@@ -1,7 +1,6 @@
 import "./index.css";
 
-const AddEventItem = (props) => {
-  const { eventDetail } = props;
+const AddEventItem = () => {
   return (
     <div className="eventdescription-container">
       <div className="section">
