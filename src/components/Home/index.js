@@ -20,19 +20,25 @@ export default class Home extends Component {
           </div>
         </div>
         <div class="HomePage-container">
-          <button className="left-button">
-            <FiArrowUpLeft />
-            Regisiter Now
-          </button>
+          <Link to="/register">
+            <button className="left-button">
+              <FiArrowUpLeft />
+              Register Now
+            </button>
+          </Link>
           <div class="HomePage-Button">
-            <button className="right-button">HOME</button>
+            <Link to="/">
+              <button className="right-button">HOME</button>
+            </Link>
             <Link to="/event">
               <button className="right-button">EVENT</button>
             </Link>
             <Link to="/about">
               <button className="right-button">ABOUT</button>
             </Link>
-            <button className="right-button">CONTACT</button>
+            <Link to="/contact">
+              <button className="right-button">CONTACT</button>
+            </Link>
           </div>
         </div>
       </div>
