@@ -28,16 +28,24 @@ export default class Home extends Component {
           </Link>
           <div class="HomePage-Button">
             <Link to="/">
-              <button className="right-button">HOME</button>
+              <div>
+                <button className="right-button">HOME</button>
+              </div>
             </Link>
             <Link to="/event">
-              <button className="right-button">EVENT</button>
+              <div>
+                <button className="right-button">EVENT</button>
+              </div>
             </Link>
             <Link to="/about">
-              <button className="right-button">ABOUT</button>
+              <div>
+                <button className="right-button">ABOUT</button>
+              </div>
             </Link>
             <Link to="/contact">
-              <button className="right-button">CONTACT</button>
+              <div>
+                <button className="right-button">CONTACT</button>
+              </div>
             </Link>
           </div>
         </div>

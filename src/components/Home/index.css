@@ -54,8 +54,10 @@
 
 @media screen and (max-width: 900px) {
   .HomePage-Button{
+    display:flex;
     flex-direction:row;
     flex-wrap:wrap;
+    justify-content:center;
     align-items:center;
   }
   
@@ -77,6 +79,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    order:1;
   }
 }
 
@@ -116,7 +119,7 @@
   .left-button {
     font-size: 40px;
     color:#db0c26;
-    order:2;
+    order:1;
   }
   .left-button:hover {
     font-size: 45px;
@@ -126,7 +129,6 @@
   .right-button {
     font-size: 40px;
     width:150px;
-    order:1;
   }
   .right-button:hover {
     transform: translateY(-5px);
