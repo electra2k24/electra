@@ -52,6 +52,16 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 900px) {
+  .HomePage-Button{
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    margin-left:10px;
+  }
+  
+}
+
 .HomePage-container {
   display: flex;
   flex-direction: row;
@@ -61,6 +71,16 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+@media screen and (max-width: 900px) {
+  .HomePage-container{
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  
+}
+
 
 .Button-container {
   display: flex;
@@ -75,6 +95,7 @@
   border: none;
   background-color: transparent;
   font-size: 50px;
+  order:2;
 }
 
 .left-button:hover {
@@ -97,6 +118,7 @@
   .left-button {
     font-size: 40px;
     color:#db0c26;
+    margin-right:20px;
   }
   .left-button:hover {
     font-size: 45px;
@@ -104,7 +126,9 @@
 }
 @media screen and (max-width: 900px) {
   .right-button {
-    font-size: 30px;
+    font-size: 40px;
+    width:150px;
+    order:1;
   }
   .right-button:hover {
     transform: translateY(-5px);
