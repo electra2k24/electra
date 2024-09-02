@@ -12,7 +12,7 @@ const AddEventItem = (props) => {
           <h1>{eventname}</h1>
           <img
             className="eventLogo"
-            src="../../images/professor.jpg"
+            src={require('../../images/professor.jpg')}
             alt="user"
           />
         </div>

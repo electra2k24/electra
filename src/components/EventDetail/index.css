@@ -1,0 +1,17 @@
+.eventDetail-bg-container{
+    height: 100vh;
+  background-image: url('../../images/eventDetail_bg_xl.jpg');
+  background-size: cover;
+  color: white;
+  background-position: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.eventDetail{
+    background-color:#000000aa;
+    height:80%;
+    width:80%;
+    border-radius:20px;
+}

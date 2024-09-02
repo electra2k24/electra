@@ -5,7 +5,6 @@ import About from "./components/About";
 import Event from "./components/Event";
 import EventDetail from "./components/EventDetail";
 
-
 const eventList = {
   technical: [
     {
@@ -68,20 +67,21 @@ const eventList = {
     },
     {
       id: "6",
-      eventname: "Escape the room",
+      eventname: "Valut Breakout",
       miniDescription: "It is a paper presentation event",
-      description: "It is a paper presentation event",
+      description:
+        "Embark on a thrilling adventure with your team of three in this unique escape room experience. Solve a series of puzzles and challenges inspired by the popular heist drama Money Heist. Each room is divided into three sections, each with its own unique theme and set of challenges. Work together to find hidden clues, crack codes, and overcome obstacles to progress to the next level. With limited time and increasing difficulty, this immersive experience will test your problem-solving skills, teamwork, and strategic thinking. Are you ready to accept the challenge and break out of the vault?",
       rule: "alksdlkamd",
       registerform: "ksdklfdsklfm",
       eventlogo: "sdfkds",
       eventImg: "",
-      eventcordintor: "Ashish Ragavendra",
+      eventcordintor: "Roshni T",
     },
     {
       id: "7",
       eventname: "Bidding Quiz",
       miniDescription: "It is a paper presentation event",
-      description: "It is a paper presentation event",
+      description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge`,
       rule: "alksdlkamd",
       registerform: "ksdklfdsklfm",
       eventlogo: "sdfkds",
