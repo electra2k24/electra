@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { IoLocationSharp } from "react-icons/io5";
-import { FiArrowUpLeft } from "react-icons/fi";
+// import { FiArrowUpLeft } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import "./index.css";
 
@@ -20,12 +20,10 @@ export default class Home extends Component {
           </div>
         </div>
         <div class="HomePage-container">
-          <Link className="left-button" to="/register">
             <button className="left-button">
-              <FiArrowUpLeft />
-              Register Now
+              {/* <FiArrowUpLeft /> */}
+              Registration Closes Soon
             </button>
-          </Link>
           <div class="HomePage-Button">
             <Link to="/about">
               <div>
