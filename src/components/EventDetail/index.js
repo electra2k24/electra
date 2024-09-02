@@ -1,7 +1,7 @@
 import './index.css'
 
 const EventDetail = (props) => {
-    console.log(props)
+    console.log(props.useParams);
     return (
       <div className="eventDetail-bg-container">
         <div className='eventDetail'>
@@ -12,7 +12,7 @@ const EventDetail = (props) => {
                     <p>Event Description</p>
                 </div>
                 <div>
-                    
+
                 </div>
         </div>
       </div>

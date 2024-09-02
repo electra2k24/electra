@@ -109,7 +109,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/event" element={<Event eventList={eventList} />} />
-        <Route exact path="/events/:id" element={<EventDetail />} />
+        <Route exact path="/events/:id" element={<EventDetail eventList={eventList} />} />
       </Routes>
     </BrowserRouter>
   );

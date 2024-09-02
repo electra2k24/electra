@@ -7,8 +7,8 @@ import "./index.css";
 export default class Home extends Component {
   render() {
     return (
-      <div class="bg-container">
-        <div class="Header">
+      <div className="bg-container">
+        <div className="Header">
           <h1 className="title">ELECTRA</h1>
           <div className="info-container">
             <p>19/08/2024</p>
@@ -19,12 +19,12 @@ export default class Home extends Component {
             </p>
           </div>
         </div>
-        <div class="HomePage-container">
+        <div className="HomePage-container">
             <button className="left-button">
               {/* <FiArrowUpLeft /> */}
               Registration Closes Soon
             </button>
-          <div class="HomePage-Button">
+          <div className="HomePage-Button">
             <Link to="/about">
               <div>
                 <button className="right-button">ABOUT</button>

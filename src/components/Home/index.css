@@ -2,7 +2,7 @@
 
 .bg-container {
   height: 100vh;
-  background-image: url(../../images/money_heist_bg.jpeg);
+  background-image: url('../../images/money_heist_bg.jpeg');
   background-size: cover;
   color: white;
   background-position: center;
@@ -82,7 +82,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding-top:50%;
+    padding-top:40%;
   }
 }
 
