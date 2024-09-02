@@ -4,7 +4,8 @@ import AddEventItem from "../AddEventItem";
 
 const Event = (props) => {
   const { eventList } = props;
-
+  const technicalList = eventList.filter(eachItem => eachItem.type === 'technical')
+  const nontechnicalList = eventList.filter(eachItem => eachItem.type === 'nontechnical')
   return (
     <div className="Event-container">
       <div className="eventlist-container">
@@ -13,7 +14,7 @@ const Event = (props) => {
           <span Style="color:white;">e</span>nt
         </h1>
         <div className="event">
-          {eventList.technical.map((eachitem) => (
+          {technicalList.map((eachitem) => (
             <AddEventItem eventDetail={eachitem} key={eachitem.id} />
           ))}
         </div>
@@ -24,7 +25,7 @@ const Event = (props) => {
           <span Style="color:white;">e</span>nt
         </h1>
         <div className="event">
-          {eventList.nontechnical.map((eachitem) => (
+          {nontechnicalList.map((eachitem) => (
             <AddEventItem eventDetail={eachitem} key={eachitem.id} />
           ))}
         </div>

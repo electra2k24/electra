@@ -1,5 +1,5 @@
 .about-container {
-  background-image: url(../../images/about_bg_image_xl.jpg);
+  background-image: url('https://res.cloudinary.com/electra/image/upload/about_bg_image_xl_gpvb9k.jpg');
   background-size: cover;
   height: 100vh;
   background-position: center;

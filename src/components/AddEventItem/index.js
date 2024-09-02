@@ -3,18 +3,13 @@ import { Link } from "react-router-dom";
 
 const AddEventItem = (props) => {
   const { eventDetail } = props;
-  console.log(eventDetail);
-  const { id, eventname, miniDescription } = eventDetail;
+  const {eventImg, id, eventname, miniDescription } = eventDetail;
   return (
     <div className="eventdescription-container">
       <div className="section">
         <div className="event-top-container">
           <h1>{eventname}</h1>
-          <img
-            className="eventLogo"
-            src={require('../../images/berlin.jpg')}
-            alt="user"
-          />
+          <img className="eventLogo" src={eventImg} alt="user" />
         </div>
         <div className="event-buttom-container">
           <div className="eventinfo">

@@ -2,7 +2,7 @@
 
 .bg-container {
   height: 100vh;
-  background-image: url('../../images/money_heist_bg.jpeg');
+  background-image: url('https://res.cloudinary.com/electra/image/upload/money_heist_bg_at1kmh.jpg');
   background-size: cover;
   color: white;
   background-position: center;
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1080px) {
   .bg-container {
-    background-image: url(../../images/money_heist_bg_sm.jpg);
+    background-image: url('https://res.cloudinary.com/electra/image/upload/money_heist_bg_sm_wpe42p.jpg');
     background-size:cover;
   }
 }
