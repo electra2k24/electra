@@ -20,7 +20,7 @@ export default class Home extends Component {
           </div>
         </div>
         <div class="HomePage-container">
-          <Link to="/register">
+          <Link className="left-button" to="/register">
             <button className="left-button">
               <FiArrowUpLeft />
               Register Now
