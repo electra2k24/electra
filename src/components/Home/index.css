@@ -12,7 +12,6 @@
   .bg-container {
     background-image: url(../../images/money_heist_bg_sm.jpg);
     background-size:cover;
-    
   }
 }
 
@@ -83,6 +82,7 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    padding-top:50%;
   }
 }
 
