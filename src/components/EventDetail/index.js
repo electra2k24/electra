@@ -6,7 +6,7 @@ const EventDetail = (props) => {
   const { eventList } = props;
   const filterList = eventList.filter((eachItem) => eachItem.id === id);
   console.log(filterList[0]);
-  const { eventImg, eventname, description, eventcordintor, registerform } =
+  const { eventImg, eventname, description} =
     filterList[0];
   return (
     <div className="eventDetail-bg-container">
