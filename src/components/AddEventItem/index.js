@@ -1,16 +1,19 @@
 import "./index.css";
 
-const AddEventItem = () => {
+const AddEventItem = props => {
+  const { eventDetail } = props
+  console.log(eventDetail)
+  const {eventname,miniDescription} = eventDetail
   return (
     <div className="eventdescription-container">
       <div className="section">
         <div className="event-top-container">
-          <h1>Professor Plan</h1>
+          <h1>{eventname}</h1>
           <img src="" alt="user" />
         </div>
         <div className="event-buttom-container">
           <div className="eventinfo">
-            <p>sadlkfksdfoknsddfgdsfgdsgsdfgfdgdsfgddfgfdgfdgddfgdgfon</p>
+            <p>{miniDescription}</p>
             <p>10:30</p>
           </div>
           <div className="register-button-container">

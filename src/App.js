@@ -42,7 +42,7 @@ const eventList = {
     },
     {
       id: "4",
-      eventname: "Professor Plan",
+      eventname: "Heist",
       miniDescription: "It is a paper presentation event",
       description: "It is a paper presentation event",
       rule: "alksdlkamd",

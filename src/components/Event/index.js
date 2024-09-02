@@ -3,7 +3,6 @@ import AddEventItem from "../AddEventItem";
 
 const Event = (props) => {
   const { eventList } = props;
-  console.log(eventList[0]);
 
   return (
     <div className="Event-container">
@@ -13,11 +12,9 @@ const Event = (props) => {
           <span Style="color:white;">e</span>nt
         </h1>
         <div className="event">
-          <AddEventItem />
-          <AddEventItem />
-          <AddEventItem />
-          <AddEventItem />
-          <AddEventItem />
+          {eventList.technical.map((eachitem) => (
+            <AddEventItem eventDetail={eachitem} key={eachitem.id} />
+          ))}
         </div>
       </div>
       <div className="eventlist-container">
@@ -26,11 +23,9 @@ const Event = (props) => {
           <span Style="color:white;">e</span>nt
         </h1>
         <div className="event">
-          <AddEventItem />
-          <AddEventItem />
-          <AddEventItem />
-          <AddEventItem />
-          <AddEventItem />
+          {eventList.nontechnical.map((eachitem) => (
+            <AddEventItem eventDetail={eachitem} key={eachitem.id} />
+          ))}
         </div>
       </div>
     </div>
