@@ -1,6 +1,7 @@
 import "./index.css";
 import AddEventItem from "../AddEventItem";
 
+
 const Event = (props) => {
   const { eventList } = props;
 

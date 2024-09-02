@@ -3,6 +3,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Event from "./components/Event";
+import EventDetail from "./components/EventDetail";
 
 
 const eventList = {
@@ -42,7 +43,7 @@ const eventList = {
     },
     {
       id: "4",
-      eventname: "Heist",
+      eventname: "Heist Unveiled",
       miniDescription: "It is a paper presentation event",
       description: "It is a paper presentation event",
       rule: "alksdlkamd",
@@ -54,8 +55,42 @@ const eventList = {
   ],
   nontechnical: [
     {
-      id: "1",
-      eventname: "Professor Plan",
+      id: "5",
+      eventname: "Shutter Secrets",
+      miniDescription:
+        "It is a photgraphy event, which need to come under SDG Goal",
+      description: "It is a paper presentation event",
+      rule: "alksdlkamd",
+      registerform: "ksdklfdsklfm",
+      eventlogo: "sdfkds",
+      eventImg: "",
+      eventcordintor: "Ashish Ragavendra",
+    },
+    {
+      id: "6",
+      eventname: "Escape the room",
+      miniDescription: "It is a paper presentation event",
+      description: "It is a paper presentation event",
+      rule: "alksdlkamd",
+      registerform: "ksdklfdsklfm",
+      eventlogo: "sdfkds",
+      eventImg: "",
+      eventcordintor: "Ashish Ragavendra",
+    },
+    {
+      id: "7",
+      eventname: "Bidding Quiz",
+      miniDescription: "It is a paper presentation event",
+      description: "It is a paper presentation event",
+      rule: "alksdlkamd",
+      registerform: "ksdklfdsklfm",
+      eventlogo: "sdfkds",
+      eventImg: "",
+      eventcordintor: "Ashish Ragavendra",
+    },
+    {
+      id: "8",
+      eventname: "Surprising Event",
       miniDescription: "It is a paper presentation event",
       description: "It is a paper presentation event",
       rule: "alksdlkamd",
@@ -74,6 +109,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/event" element={<Event eventList={eventList} />} />
+        <Route exact path="/events/:id" element={<EventDetail />} />
       </Routes>
     </BrowserRouter>
   );

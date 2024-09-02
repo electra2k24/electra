@@ -1,6 +1,6 @@
 .Event-container {
-  background-color: black;
-  background-size: cover;
+  background-image:url('../../images/event_bg_image_xl.jpeg');
+  background-size:cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

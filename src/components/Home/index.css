@@ -8,7 +8,7 @@
   background-position: center;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .bg-container {
     background-image: url(../../images/money_heist_bg_sm.jpg);
     background-size:cover;
@@ -23,7 +23,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .title {
     letter-spacing: 2px;
     font-size: 50px;
@@ -42,7 +42,7 @@
   font-family: Kdam Thmor Pro;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .info-container {
     font-size: 10px;
   }
@@ -54,7 +54,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .HomePage-Button{
     display:flex;
     flex-direction:row;
@@ -76,7 +76,7 @@
   padding-right: 20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .HomePage-container{
     display:flex;
     flex-direction:column;
@@ -118,7 +118,7 @@
   font-size: 40px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .left-button {
     font-size: 40px;
     color:#db0c26;
@@ -128,7 +128,7 @@
     font-size: 45px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   .right-button {
     font-size: 40px;
     width:150px;
