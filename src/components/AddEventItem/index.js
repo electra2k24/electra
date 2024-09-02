@@ -14,7 +14,7 @@ const AddEventItem = () => {
             <p>10:30</p>
           </div>
           <div className="register-button-container">
-            <button className="regsiter-button">REGSISTER</button>
+            <button className="regsiter-button">REGSITER</button>
           </div>
         </div>
       </div>

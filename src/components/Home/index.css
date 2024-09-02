@@ -1,3 +1,5 @@
+
+
 .bg-container {
   height: 100vh;
   background-image: url(../../images/money_heist_bg.jpeg);
@@ -8,8 +10,9 @@
 
 @media screen and (max-width: 900px) {
   .bg-container {
-    background-image: url(../../images/money_heist_bg_sm.jpeg);
-    background-size:250%;
+    background-image: url(../../images/money_heist_bg_sm.jpg);
+    background-size:cover;
+    
   }
 }
 
@@ -59,6 +62,7 @@
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
+    order:1;
   }
   
 }
@@ -79,7 +83,6 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    order:1;
   }
 }
 
@@ -119,7 +122,6 @@
   .left-button {
     font-size: 40px;
     color:#db0c26;
-    order:1;
   }
   .left-button:hover {
     font-size: 45px;
@@ -129,6 +131,7 @@
   .right-button {
     font-size: 40px;
     width:150px;
+    order:1;
   }
   .right-button:hover {
     transform: translateY(-5px);
