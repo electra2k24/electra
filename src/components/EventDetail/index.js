@@ -1,4 +1,5 @@
 import { useParams } from "react-router";
+import {Link} from 'react-router-dom'
 import "./index.css";
 
 const EventDetail = (props) => {
@@ -6,7 +7,7 @@ const EventDetail = (props) => {
   const { eventList } = props;
   const filterList = eventList.filter((eachItem) => eachItem.id === id);
   console.log(filterList[0]);
-  const { eventImg, eventname, description} =
+  const {registerform,eventImg, eventname, description} =
     filterList[0];
   return (
     <div className="eventDetail-bg-container">
@@ -19,7 +20,9 @@ const EventDetail = (props) => {
           <p className="eventDetail-description">{description}</p>
         </div>
         <div className="eventDetail-section2">
-          <button className="eventDetail-registerButton">REGSITER HERE</button>
+          <Link target="_blank" to={registerform}>
+            <button className="eventDetail-registerButton">REGSITER HERE</button>
+          </Link>
           <button className="eventDetail-RulesButton">RULES</button>
         </div>
       </div>
