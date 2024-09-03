@@ -12,7 +12,7 @@ const eventList = [
     eventname: "Professor Plan",
     type: "technical",
     miniDescription: "It is a paper presentation event",
-    description: "It is a paper presentation event",
+    description: "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
     rule: "alksdlkamd",
     registerform: "https://forms.gle/NuwqhZaWG95AFBdP9",
     eventlogo: "sdfkds",
