@@ -1,5 +1,5 @@
 .eventDetail-bg-container{
-  min-height: 100vh;
+  height: 100vh;
   background-image: url('https://res.cloudinary.com/electra/image/upload/eventDetail_bg_xl_d2cwqd.jpg');
   background-size:cover;
   color: white;
@@ -12,7 +12,7 @@
 
 .eventDetail{
     background-color:#000000aa;
-    height:90%;
+    height:80%;
     width:80%;
     border-radius:20px;
     padding:30px;
@@ -21,6 +21,18 @@
 .eventDetail-description{
   text-align:justify;
   margin-top:40px;
+}
+
+.eventDetail-description-container{
+  height:50%;
+  overflow-x:hidden;
+}
+
+@media screen and (max-width: 1080px){
+  .eventDetail-description-container{
+  height:70%;
+  overflow-x:hidden;
+}
 }
 
 .eventDetail-section1{

@@ -13,9 +13,9 @@ const EventDetail = (props) => {
       <div className="eventDetail">
         <div className="eventDetail-section1">
           <img src={eventImg} className="eventDetail-img" alt="Event Logo" />
-          <h1 className="eventDetail-heading" >{eventname}</h1>
+          <h1 className="eventDetail-heading">{eventname}</h1>
         </div>
-        <div>
+        <div className="eventDetail-description-container">
           <p className="eventDetail-description">{description}</p>
         </div>
         <div className="eventDetail-section2">
