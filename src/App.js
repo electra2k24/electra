@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Event from "./components/Event";
 import EventDetail from "./components/EventDetail";
+import Coordinator from "./components/Coordinator";
 
 const eventList = [
   {
@@ -113,7 +114,16 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/event" element={<Event eventList={eventList} />} />
-        <Route exact path="/events/:id" element={<EventDetail eventList={eventList} />} />
+        <Route
+          exact
+          path="/coordinator"
+          element={<Coordinator/>}
+        />
+        <Route
+          exact
+          path="/events/:id"
+          element={<EventDetail eventList={eventList} />}
+        />
       </Routes>
     </BrowserRouter>
   );

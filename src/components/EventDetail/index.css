@@ -1,5 +1,5 @@
 .eventDetail-bg-container{
-    height: 100vh;
+  min-height: 100vh;
   background-image: url('https://res.cloudinary.com/electra/image/upload/eventDetail_bg_xl_d2cwqd.jpg');
   background-size:cover;
   color: white;
@@ -9,9 +9,10 @@
   align-items:center;
 }
 
+
 .eventDetail{
     background-color:#000000aa;
-    height:80%;
+    height:90%;
     width:80%;
     border-radius:20px;
     padding:30px;
@@ -30,6 +31,14 @@
   width:150px;
   margin-right:40px;
 }
+
+@media screen and (max-width: 1080px){
+  .eventDetail-img{
+  width:100px;
+  margin-right:20px;
+}
+}
+
 
 .eventDetail-section2{
   display:flex;
@@ -65,3 +74,10 @@
     font-weight: normal;
     font-style: italic;
 }
+
+@media screen and (max-width: 1080px){
+  .eventDetail-heading{
+  font-size:23px;
+}
+}
+
