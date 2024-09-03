@@ -20,16 +20,16 @@
 
 .eventDetail-description{
   text-align:justify;
-  margin-top:40px;
 }
 
 .eventDetail-description-container{
-  height:50%;
+  margin-top:40px;
   overflow-x:hidden;
 }
 
 @media screen and (max-width: 1080px){
   .eventDetail-description-container{
+  margin-top:20px;
   height:70%;
   overflow-x:hidden;
 }
@@ -79,6 +79,20 @@
   color:#ff0606;
   font-size:15px;
   font-family:sans-serif;
+}
+
+
+@media screen and (max-width: 1080px){
+  .eventDetail-registerButton{
+  font-size:12px;
+  width:120px;
+  height:30px;
+  }
+  .eventDetail-RulesButton{
+  font-size:12px;
+  width:120px;
+  height:30px;
+  }
 }
 
 .eventDetail-heading{
