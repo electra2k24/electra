@@ -72,7 +72,7 @@ const eventList = [
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
-    miniDescription: "This event features three escalating levels of challenges, where only the strongest contenders will endure. The last one standing claims ultimate victory!",
+    miniDescription: "This event features three escalating levels of challenges, where only the strongest contenders will endure.",
     description:
       "Embark on a thrilling adventure with your team of three in this unique escape room experience. Solve a series of puzzles and challenges inspired by the popular heist drama Money Heist. Each room is divided into three sections, each with its own unique theme and set of challenges. Work together to find hidden clues, crack codes, and overcome obstacles to progress to the next level. With limited time and increasing difficulty, this immersive experience will test your problem-solving skills, teamwork, and strategic thinking. Are you ready to accept the challenge and break out of the vault?",
     rule: "alksdlkamd",
