@@ -28,7 +28,7 @@ const eventList = [
     rule: "alksdlkamd",
     registerform: "https://forms.gle/naXPGSaZKYPkxG9J9",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/v1725445188/b0544a94777525.5e8728c2de1fc_odam8t.jpg",
+    eventImg: "https://res.cloudinary.com/electra/image/upload/v1725469408/b0544a94777525.5e8728c2de1fc_oda_ypc1bt.png",
     eventcordintor: "Dhyanesh",
   },
   {
