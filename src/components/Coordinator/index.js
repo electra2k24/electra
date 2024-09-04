@@ -1,3 +1,6 @@
+import "./index.css";
+
+
 const Coordinator = ()=> {
     return(
         <div className="coordinator-content">
