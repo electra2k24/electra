@@ -40,7 +40,7 @@ const eventList = [
     rule: "alksdlkamd",
     registerform: "https://forms.gle/4bSv313WGsja6mFd9",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+    eventImg: "https://res.cloudinary.com/electra/image/upload/v1725444879/wallpapersden.com_tokyo-money-heist-illustration_1920x1920_a3rbxw.jpg",
     eventcordintor: "Arul Murugan",
   },
   {
