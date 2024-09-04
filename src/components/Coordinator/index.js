@@ -1,6 +1,6 @@
 const Coordinator = ()=> {
     return(
-        <div>
+        <div className="coordinator-content">
             <div>
                 <h1>Masters</h1>
                 <div>
