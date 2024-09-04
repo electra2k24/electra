@@ -18,7 +18,7 @@ const AddEventItem = (props) => {
           </div>
           <div className="register-button-container">
             <Link to={`/events/${id}`}>
-              <button className="regsiter-button">REGSITER</button>
+              <button className="regsiter-button">REGISTER</button>
             </Link>
           </div>
         </div>
