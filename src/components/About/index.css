@@ -1,5 +1,5 @@
 .about-container {
-  background-image: url('https://res.cloudinary.com/electra/image/upload/about_bg_image_xl_gpvb9k.jpg');
+  background-image: url("https://res.cloudinary.com/electra/image/upload/about_bg_image_xl_gpvb9k.jpg");
   background-size: cover;
   height: 100vh;
   background-position: center;
@@ -16,26 +16,33 @@
 }
 
 .about-heading {
-  font-family: Compacta-BT;
+  font-family: Black Butter Personal Use;
   letter-spacing: 4px;
-  color: white;
-  font-size: 70px;
+  color: rgb(255, 255, 255);
+  font-size: 80px;
 }
 
 @media screen and (max-width: 900px) {
   .about-heading {
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
   }
 }
 
 .heading-span {
-  color: #8b0415;
+  color: #fa1e3b;
 }
 
 .about-description {
   color: white;
   justify-self: center;
+  width: 70%;
+}
+
+@media screen and (max-width: 1080px) {
+  .about-description {
+    width: 85%;
+  }
 }
 
 .aboutheader {
@@ -49,6 +56,8 @@
   padding: 20px;
   height: 300px;
   background-color: #000000bf;
+  text-align: justify;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 900px) {
@@ -57,7 +66,6 @@
     border-radius: 8px;
     padding: 20px;
     height: 400px;
-    width: 350px;
     word-wrap: break-word;
     background-color: #000000bf;
   }

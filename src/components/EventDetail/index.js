@@ -1,6 +1,9 @@
 import { useParams } from "react-router";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 import "./index.css";
+
 
 const EventDetail = (props) => {
   const { id } = useParams();
@@ -21,9 +24,28 @@ const EventDetail = (props) => {
         </div>
         <div className="eventDetail-section2">
           <Link target="_blank" to={registerform}>
-            <button className="eventDetail-registerButton">REGSITER HERE</button>
+            <button className="eventDetail-registerButton">
+              REGSITER HERE
+            </button>
           </Link>
-          <button className="eventDetail-RulesButton">RULES</button>
+          <Popup
+            modal
+            trigger={<button className="eventDetail-RulesButton">RULES</button>}
+          >
+            {(close) => (
+              <div className="Rules-container">
+                <h1>Rules</h1>
+                <ul>
+                  <li>Rule1</li>
+                  <li>Rule1</li>
+                  <li>Rule1</li>
+                  <li>Rule1</li>
+                  <li>Rule1</li>
+                </ul>
+                <button onClick={() => close()}>Close</button>
+              </div>
+            )}
+          </Popup>
         </div>
       </div>
     </div>

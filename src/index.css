@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/28f2a2601ee19cab685ff433f91f2d9a?family=Black+Butter+Personal+Use);
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,4 +13,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@font-face {
+  font-family: "Compacta-BT";
+  src: url("./webfonts_Compacta-BT/Compacta-BT.ttf.woff") format("woff"),
+    url("./webfonts_Compacta-BT/Compacta-BT.ttf.svg#Compacta-BT") format("svg"),
+    url("./webfonts_Compacta-BT/Compacta-BT.ttf.eot"),
+    url("./webfonts_Compacta-BT/Compacta-BT.ttf.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Black Butter Personal Use";
+    src: url("https://db.onlinewebfonts.com/t/28f2a2601ee19cab685ff433f91f2d9a.eot");
+    src: url("https://db.onlinewebfonts.com/t/28f2a2601ee19cab685ff433f91f2d9a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/28f2a2601ee19cab685ff433f91f2d9a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/28f2a2601ee19cab685ff433f91f2d9a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/28f2a2601ee19cab685ff433f91f2d9a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/28f2a2601ee19cab685ff433f91f2d9a.svg#Black Butter Personal Use")format("svg");
 }

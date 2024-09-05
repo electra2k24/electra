@@ -1,109 +1,117 @@
-.eventDetail-bg-container{
+.eventDetail-bg-container {
   height: 100vh;
-  background-image: url('https://res.cloudinary.com/electra/image/upload/eventDetail_bg_xl_d2cwqd.jpg');
-  background-size:cover;
+  background-image: url("https://res.cloudinary.com/electra/image/upload/eventDetail_bg_xl_d2cwqd.jpg");
+  background-size: cover;
   color: white;
   background-position: center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.eventDetail{
-    background-color:#000000aa;
-    height:80%;
-    width:80%;
-    border-radius:20px;
-    padding:30px;
+.eventDetail {
+  background-color: #000000aa;
+  height: 80%;
+  width: 80%;
+  border-radius: 20px;
+  padding: 30px;
 }
 
-.eventDetail-description{
-  text-align:justify;
+.eventDetail-description {
+  text-align: justify;
 }
 
-.eventDetail-description-container{
-  margin-top:40px;
-  overflow-x:hidden;
+.eventDetail-description-container {
+  margin-top: 40px;
+  overflow-x: hidden;
 }
 
-@media screen and (max-width: 1080px){
-  .eventDetail-description-container{
-  margin-top:20px;
-  height:70%;
-  overflow-x:hidden;
-}
-}
-
-.eventDetail-section1{
-  display:flex;
-}
-
-.eventDetail-img{
-  width:150px;
-  margin-right:40px;
-}
-
-@media screen and (max-width: 1080px){
-  .eventDetail-img{
-  width:100px;
-  margin-right:20px;
-}
-}
-
-
-.eventDetail-section2{
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  margin-top:50px;
-}
-
-.eventDetail-registerButton{
-  background-color:#aa0505;
-  border:none;
-  width:170px;
-  height:40px;
-  border-radius:8px;
-  color:rgba(255, 255, 255, 0.908);
-  font-size:15px;
-  font-family:sans-serif;
-}
-
-.eventDetail-RulesButton{
-  background-color:rgb(0, 0, 0);
-  border:none;
-  width:170px;
-  height:40px;
-  border-radius:8px;
-  color:#ff0606;
-  font-size:15px;
-  font-family:sans-serif;
-}
-
-
-@media screen and (max-width: 1080px){
-  .eventDetail-registerButton{
-  font-size:12px;
-  width:120px;
-  height:30px;
-  }
-  .eventDetail-RulesButton{
-  font-size:12px;
-  width:120px;
-  height:30px;
+@media screen and (max-width: 1080px) {
+  .eventDetail-description-container {
+    margin-top: 20px;
+    height: 70%;
+    overflow-x: hidden;
   }
 }
 
-.eventDetail-heading{
-  font-family: 'Black Butter';
-    font-weight: normal;
-    font-style: italic;
+.eventDetail-section1 {
+  display: flex;
 }
 
-@media screen and (max-width: 1080px){
+.eventDetail-img {
+  width: 150px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+  .eventDetail-img {
+    width: 100px;
+    margin-right: 20px;
+  }
+}
+
+.eventDetail-section2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.eventDetail-registerButton {
+  background-color: #aa0505;
+  border: none;
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.908);
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.eventDetail-RulesButton {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  color: #ff0606;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 1080px) {
+  .eventDetail-registerButton {
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+  }
+  .eventDetail-RulesButton {
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+  }
+}
+
+.eventDetail-heading {
+  font-family: "Black Butter Personal Use";
+  font-size:50px;
+}
+
+@media screen and (max-width:1080px) {
   .eventDetail-heading{
-  font-size:23px;
-}
+    font-size:30px;
+  }
 }
 
+@media screen and (max-width: 1080px) {
+  .eventDetail-heading {
+    font-size: 23px;
+  }
+}
+
+
+.Rules-container{
+  text-align:center;
+  background-color:blue;
+  border:none;
+}
