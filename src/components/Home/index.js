@@ -8,20 +8,24 @@ import "./index.css";
 export default class Home extends Component {
   state = { date: {} };
   componentDidMount() {
-    this.getDate()
+    this.getDate();
   }
 
   getDate = () => {
-    const result = intervalToDuration({
-      start: new Date(),
-      end: new Date(2024, 8, 19, 8, 59, 59),
-    });
-    this.setState({ date: result });
+    const result = () => {
+      const r = intervalToDuration({
+        start: new Date(),
+        end: new Date(2024, 8, 19, 8, 59, 59),
+      });
+      this.setState({ date: r });
+      console.log("r");
+    };
+
+    setInterval(result, 1000);
   };
 
   render() {
     const { date } = this.state;
-    console.log(date);
     return (
       <div className="bg-container">
         <div className="Header">
@@ -41,7 +45,11 @@ export default class Home extends Component {
             Registration Closes Soon
           </button>
           <div>
-            <p>{`Days : ${date.days} | Hours : ${date.hours} | Minutes : ${date.minutes} | Seconds : ${date.seconds}`}</p>
+            <p>{`Days : ${date.days === undefined ? 0 : date.days} | Hours : ${
+              date.hours === undefined ? 0 : date.hours
+            } | Minutes : ${
+              date.minutes === undefined ? 0 : date.minutes
+            } | Seconds : ${date.seconds === undefined ? 0 : date.seconds}`}</p>
           </div>
           <div className="HomePage-Button">
             <Link to="/about">
