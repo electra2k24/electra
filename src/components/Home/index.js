@@ -2,10 +2,26 @@ import { Component } from "react";
 import { IoLocationSharp } from "react-icons/io5";
 // import { FiArrowUpLeft } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { intervalToDuration } from "date-fns";
 import "./index.css";
 
 export default class Home extends Component {
+  state = { date: {} };
+  componentDidMount() {
+    this.getDate()
+  }
+
+  getDate = () => {
+    const result = intervalToDuration({
+      start: new Date(),
+      end: new Date(2024, 8, 19, 8, 59, 59),
+    });
+    this.setState({ date: result });
+  };
+
   render() {
+    const { date } = this.state;
+    console.log(date);
     return (
       <div className="bg-container">
         <div className="Header">
@@ -20,10 +36,13 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="HomePage-container">
-            <button className="left-button">
-              {/* <FiArrowUpLeft /> */}
-              Registration Closes Soon
-            </button>
+          <button className="left-button">
+            {/* <FiArrowUpLeft /> */}
+            Registration Closes Soon
+          </button>
+          <div>
+            <p>{`Days : ${date.days} | Hours : ${date.hours} | Minutes : ${date.minutes} | Seconds : ${date.seconds}`}</p>
+          </div>
           <div className="HomePage-Button">
             <Link to="/about">
               <div>

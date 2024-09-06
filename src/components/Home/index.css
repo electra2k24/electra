@@ -102,6 +102,15 @@
   font-size: 50px;
 }
 
+@media screen and (min-width:1080px) {
+  .left-button{
+    width:20%;
+  }
+  .HomePage-Button{
+    width:20%;
+  }
+}
+
 .left-button:hover {
   font-size: 60px;
 }
