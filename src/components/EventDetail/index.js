@@ -25,7 +25,7 @@ const EventDetail = (props) => {
         <div className="eventDetail-section2">
           <Link target="_blank" to={registerform}>
             <button className="eventDetail-registerButton">
-              REGSITER HERE
+              REGISTER HERE
             </button>
           </Link>
           <Popup

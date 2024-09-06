@@ -97,13 +97,13 @@ const eventList = [
     id: "8",
     eventname: "Surprising Event",
     type: "nontechnical",
-    miniDescription: "It is a paper presentation event",
-    description: "It is a paper presentation event",
+    miniDescription: "ON SPOT !!!!",
+    description: "ON SPOT REGISTRATION",
     rule: "alksdlkamd",
     registerform: "On Spot",
     eventlogo: "sdfkds",
     eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
-    eventcordintor: "Ashish Ragavendra",
+    eventcordintor: "",
   },
 ];
 
