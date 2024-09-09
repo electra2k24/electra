@@ -42,9 +42,9 @@ export default class Home extends Component {
         <div className="HomePage-container">
           <button className="left-button">
             {/* <FiArrowUpLeft /> */}
-            Registration Closes Soon
+            Registration Closes on 16/09
           </button>
-          <div>
+          <div className="time-container">
             <p>{`Days : ${date.days === undefined ? 0 : date.days} | Hours : ${
               date.hours === undefined ? 0 : date.hours
             } | Minutes : ${

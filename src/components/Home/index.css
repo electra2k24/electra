@@ -127,6 +127,13 @@
   font-size: 40px;
 }
 
+
+.time-container{
+  font-family:Teko;
+  font-size:40px;
+}
+
+
 @media screen and (max-width: 1080px) {
   .left-button {
     font-size: 40px;
@@ -136,7 +143,12 @@
   .left-button:hover {
     font-size: 45px;
   }
+  .time-container{
+    margin-bottom:60px;
+    font-size:30px;
+  }
 }
+
 @media screen and (max-width: 1080px) {
   .right-button {
     font-size: 40px;
