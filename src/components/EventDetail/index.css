@@ -1,4 +1,3 @@
-
 .eventDetail-bg-container {
   height: 100vh;
   background-image: url("https://res.cloudinary.com/electra/image/upload/eventDetail_bg_xl_d2cwqd.jpg");
@@ -70,7 +69,7 @@
 }
 
 .eventDetail-RulesButton {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(15, 14, 14);
   border: none;
   width: 170px;
   height: 40px;
@@ -95,12 +94,12 @@
 
 .eventDetail-heading {
   font-family: "Black Butter Personal Use";
-  font-size:50px;
+  font-size: 50px;
 }
 
-@media screen and (max-width:1080px) {
-  .eventDetail-heading{
-    font-size:30px;
+@media screen and (max-width: 1080px) {
+  .eventDetail-heading {
+    font-size: 30px;
   }
 }
 
@@ -110,21 +109,46 @@
   }
 }
 
-
-.Rules-container{
-  text-align:center;
-  background-color:blue;
-  border:none;
+.rules-container {
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0;
 }
 
-.eventDetail-info{
-  font-family:"SUSE", sans-serif;
-  letter-spacing:1px;
-  font-size:18px;
+.eventDetail-info {
+  font-family: "SUSE", sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
 }
 
-@media screen and (max-width: 1080px){
-  .eventDetail-info{
-    font-size:10px;
+@media screen and (max-width: 1080px) {
+  .eventDetail-info {
+    font-size: 10px;
   }
+}
+
+.popup-content {
+  font-family: Segoe UI;
+  background-color: #000000c7;
+  width: 750px;
+  min-height: 260px;
+  border-radius: 16px;
+  color: whitesmoke;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1080px) {
+  .popup-content {
+    width: 85%;
+    padding: 10px;
+  }
+}
+
+.RulesHeading {
+  text-align: center;
+}
+
+.rules-List {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

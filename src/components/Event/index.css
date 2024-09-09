@@ -22,16 +22,17 @@
 }
 
 .eventheader {
-  font-family:Compacta BT;
   color: #d62038;
-  letter-spacing: 3px;
   font-size: 40px;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media screen and (max-width: 900px) {
   .eventheader {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 

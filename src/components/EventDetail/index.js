@@ -9,7 +9,9 @@ const EventDetail = (props) => {
   const { eventList } = props;
   const filterList = eventList.filter((eachItem) => eachItem.id === id);
   console.log(filterList[0]);
-  const { registerform, eventImg, eventname, description } = filterList[0];
+  const { registerform, eventImg, eventname, description, rule } =
+    filterList[0];
+
   return (
     <div className="eventDetail-bg-container">
       <div className="eventDetail">
@@ -31,8 +33,23 @@ const EventDetail = (props) => {
               REGISTER HERE
             </button>
           </Link>
-          <Popup trigger={<button> Trigger</button>} position="right center">
-            <div>Popup content here !!</div>
+          <Popup
+            modal
+            trigger={
+              <button className="eventDetail-RulesButton"> RULES</button>
+            }
+            className="popup-content"
+          >
+            <div className="rules-container">
+              <div>
+                <h1 className="RulesHeading">Rules and Regulations</h1>
+              </div>
+              <ul className="rules-List">
+                {rule.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
           </Popup>
         </div>
       </div>
