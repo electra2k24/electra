@@ -1,0 +1,38 @@
+.profilecard{
+    width:250px;
+    height:250px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#000000b6;
+    color:white;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.profileImage{
+    width:130px;
+    border-radius:1000px;
+}
+
+.porfileButton{
+    background-color:transparent;
+    border:none;
+    color:white;
+    font-size:30px;
+}
+
+.profile-name-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.profile-name{
+    font-size:17px;
+}

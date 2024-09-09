@@ -107,6 +107,120 @@ const eventList = [
   },
 ];
 
+const Contact = {
+  keyPerson: [
+    {
+      id: 0,
+      name: "Shri.Sai Prakash Leo Muthu",
+      tag: "CEO",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/sairam_ceo.0a9b6b511fc2cf277097_ccpzxa.png",
+      linkdinLink: "",
+    },
+    {
+      id: 1,
+      name: "Dr.K.Palanikumar",
+      tag: "Principal",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/v1725871343/sit-principal_qy2rvs.webp",
+      linkdinLink: "",
+    },
+    {
+      id: 2,
+      name: "Dr.G.Prakash",
+      tag: "HOD",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/v1725871686/1820842_jxikrt.jpg",
+      linkdinLink: "",
+    },
+  ],
+  Master: [
+    {
+      id: 0,
+      name: "Ms.A.Sasikala",
+      tag: "Coordinator",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/citations_iax237.jpg",
+      linkdinLink: "",
+    },
+    {
+      id: 1,
+      name: "Mr.A.Anbazhagan",
+      tag: "Coordinator",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/204668_mx8wt8.jpg",
+      linkdinLink: "",
+    },
+  ],
+  students: [
+    {
+      id: 0,
+      name: "Ashish Ragavendra N U",
+      tag: " ",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 1,
+      name: "Dhyanesh D",
+      tag: "",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 2,
+      name: "Arulmurugan N R",
+      tag: "",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 3,
+      name: "Ragavendiran P",
+      tag: "",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 4,
+      name: "Gokul G",
+      tag: "",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 5,
+      name: "Roshni T",
+      tag: "",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 6,
+      name: "Rishikeshwaran B R",
+      tag: "",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+  ],
+  webMaster: [
+    {
+      id: 0,
+      name: "MuhamedSuhail",
+      tag: " ",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+  {
+      id: 1,
+      name: "Dhyanesh D",
+      tag: " ",
+      imgUrl:"",
+      linkdinLink: "",
+    }
+  ]
+};
+
 function App() {
   return (
     <BrowserRouter>
@@ -114,11 +228,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/event" element={<Event eventList={eventList} />} />
-        <Route
-          exact
-          path="/coordinator"
-          element={<Coordinator/>}
-        />
+        <Route exact path="/coordinator" element={<Coordinator Contact={Contact} />} />
         <Route
           exact
           path="/events/:id"
