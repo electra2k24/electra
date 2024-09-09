@@ -3,6 +3,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Event from "./components/Event";
+import Contact from "./components/contact";
 import EventDetail from "./components/EventDetail";
 import Coordinator from "./components/Coordinator";
 
@@ -12,23 +13,28 @@ const eventList = [
     eventname: "Professor's Plan",
     type: "technical",
     miniDescription: "It is a paper presentation event",
-    description: "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
+    description:
+      "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
     rule: "alksdlkamd",
     registerform: "https://forms.gle/NuwqhZaWG95AFBdP9",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
     eventcordintor: "Ashish Ragavendra",
   },
   {
     id: "2",
     eventname: "Unmask Innovators",
     type: "technical",
-    miniDescription: "Create ideas on-the-spot from SDG problems with unexpected twists",
-    description: "Get ready for on-the-spot idea creation, where you’ll tackle problem statements rooted in the Sustainable Development Goals (SDGs). Expect exciting twists during your PPT preparation that will test your creativity under pressure. Only the most innovative idea will rise to claim victory!t",
+    miniDescription:
+      "Create ideas on-the-spot from SDG problems with unexpected twists",
+    description:
+      "Get ready for on-the-spot idea creation, where you’ll tackle problem statements rooted in the Sustainable Development Goals (SDGs). Expect exciting twists during your PPT preparation that will test your creativity under pressure. Only the most innovative idea will rise to claim victory!t",
     rule: "alksdlkamd",
     registerform: "https://forms.gle/naXPGSaZKYPkxG9J9",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/v1725469408/b0544a94777525.5e8728c2de1fc_oda_ypc1bt.png",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/v1725469408/b0544a94777525.5e8728c2de1fc_oda_ypc1bt.png",
     eventcordintor: "Dhyanesh",
   },
   {
@@ -36,23 +42,28 @@ const eventList = [
     eventname: "Electro Heist",
     type: "technical",
     miniDescription: "It is a ciruit debugguing and designing based event",
-    description: "Join us for an engaging and hands-on symposium on Circuit Designing and Debugging using Tinkercad, a powerful online tool for creating and simulating electronic circuits. This event is perfect for students, enthusiasts, and professionals eager to enhance their skills in circuit design and troubleshooting.",
+    description:
+      "Join us for an engaging and hands-on symposium on Circuit Designing and Debugging using Tinkercad, a powerful online tool for creating and simulating electronic circuits. This event is perfect for students, enthusiasts, and professionals eager to enhance their skills in circuit design and troubleshooting.",
     rule: "alksdlkamd",
     registerform: "https://forms.gle/4bSv313WGsja6mFd9",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/v1725444879/wallpapersden.com_tokyo-money-heist-illustration_1920x1920_a3rbxw.jpg",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/v1725444879/wallpapersden.com_tokyo-money-heist-illustration_1920x1920_a3rbxw.jpg",
     eventcordintor: "Arul Murugan",
   },
   {
     id: "4",
     eventname: "Heist Unveiled",
     type: "technical",
-    miniDescription: "Unveiling the game-changing prototype: Where vision meets reality!",
-    description: "Join us for an exciting symposium where we showcase groundbreaking innovations and prototype models developed by creative minds. This event will feature project presentations that highlight the innovative solutions addressing real-world challenges. Participants will have the opportunity to present their prototype models, explain the technological advancements, and demonstrate how their innovations can make a significant impact across various fields.",
+    miniDescription:
+      "Unveiling the game-changing prototype: Where vision meets reality!",
+    description:
+      "Join us for an exciting symposium where we showcase groundbreaking innovations and prototype models developed by creative minds. This event will feature project presentations that highlight the innovative solutions addressing real-world challenges. Participants will have the opportunity to present their prototype models, explain the technological advancements, and demonstrate how their innovations can make a significant impact across various fields.",
     rule: "alksdlkamd",
     registerform: "https://forms.gle/nL5HLkQbRy7dUCgS6",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
     eventcordintor: "ragavendiran",
   },
   {
@@ -65,20 +76,23 @@ const eventList = [
     rule: "alksdlkamd",
     registerform: "https://forms.gle/EmNSpM15tbqXApoX9",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
     eventcordintor: "Ashish Ragavendra",
   },
   {
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
-    miniDescription: "This event features three escalating levels of challenges, where only the strongest contenders will endure.",
+    miniDescription:
+      "This event features three escalating levels of challenges, where only the strongest contenders will endure.",
     description:
       "Embark on a thrilling adventure with your team of three in this unique escape room experience. Solve a series of puzzles and challenges inspired by the popular heist drama Money Heist. Each room is divided into three sections, each with its own unique theme and set of challenges. Work together to find hidden clues, crack codes, and overcome obstacles to progress to the next level. With limited time and increasing difficulty, this immersive experience will test your problem-solving skills, teamwork, and strategic thinking. Are you ready to accept the challenge and break out of the vault?",
     rule: "alksdlkamd",
     registerform: "https://forms.gle/ZqXN1bM85CYPNBGK9",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
     eventcordintor: "Roshni T",
   },
   {
@@ -90,7 +104,8 @@ const eventList = [
     rule: "alksdlkamd",
     registerform: "https://forms.gle/mS8KSmS8fyviPR586",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
     eventcordintor: "Gokul",
   },
   {
@@ -102,12 +117,13 @@ const eventList = [
     rule: "alksdlkamd",
     registerform: "On Spot",
     eventlogo: "sdfkds",
-    eventImg: "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+    eventImg:
+      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
     eventcordintor: "",
   },
 ];
 
-const Contact = {
+const ContactList = {
   keyPerson: [
     {
       id: 0,
@@ -206,19 +222,49 @@ const Contact = {
   webMaster: [
     {
       id: 0,
-      name: "MuhamedSuhail",
+      name: "Muhamed Suhail S J",
       tag: " ",
       imgUrl: "",
       linkdinLink: "",
     },
-  {
+    {
       id: 1,
       name: "Dhyanesh D",
       tag: " ",
-      imgUrl:"",
+      imgUrl: "",
       linkdinLink: "",
-    }
-  ]
+    },
+  ],
+  officeMembers: [
+    {
+      id: 0,
+      name: "Diwakar V N",
+      tag: "President",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 1,
+      name: "Shanmathi M",
+      tag: "Vice-President",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 2,
+      name: "Avinash A",
+      tag: "Secretary",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+    {
+      id: 3,
+      name: "Vignesh L",
+      tag: "Treasure",
+      imgUrl: "",
+      linkdinLink: "",
+    },
+  ],
 };
 
 function App() {
@@ -227,8 +273,17 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
+        <Route
+          exact
+          path="/contact"
+          element={<Contact ContactList={ContactList} />}
+        />
         <Route exact path="/event" element={<Event eventList={eventList} />} />
-        <Route exact path="/coordinator" element={<Coordinator Contact={Contact} />} />
+        <Route
+          exact
+          path="/coordinator"
+          element={<Coordinator ContactList={ContactList} />}
+        />
         <Route
           exact
           path="/events/:id"
