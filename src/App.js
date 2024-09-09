@@ -12,6 +12,8 @@ const eventList = [
     id: "1",
     eventname: "Professor's Plan",
     type: "technical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription: "It is a paper presentation event",
     description:
       "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
@@ -26,6 +28,8 @@ const eventList = [
     id: "2",
     eventname: "Unmask Innovators",
     type: "technical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription:
       "Create ideas on-the-spot from SDG problems with unexpected twists",
     description:
@@ -41,6 +45,8 @@ const eventList = [
     id: "3",
     eventname: "Electro Heist",
     type: "technical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription: "It is a ciruit debugguing and designing based event",
     description:
       "Join us for an engaging and hands-on symposium on Circuit Designing and Debugging using Tinkercad, a powerful online tool for creating and simulating electronic circuits. This event is perfect for students, enthusiasts, and professionals eager to enhance their skills in circuit design and troubleshooting.",
@@ -55,6 +61,8 @@ const eventList = [
     id: "4",
     eventname: "Heist Unveiled",
     type: "technical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription:
       "Unveiling the game-changing prototype: Where vision meets reality!",
     description:
@@ -70,6 +78,8 @@ const eventList = [
     id: "5",
     eventname: "Shutter Secrets",
     type: "nontechnical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription:
       "It is a photgraphy event, which need to come under SDG Goal",
     description: "It is a paper presentation event",
@@ -84,6 +94,8 @@ const eventList = [
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription:
       "This event features three escalating levels of challenges, where only the strongest contenders will endure.",
     description:
@@ -99,6 +111,8 @@ const eventList = [
     id: "7",
     eventname: "Bidding Quiz",
     type: "nontechnical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription: "It is a paper presentation event",
     description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge`,
     rule: "alksdlkamd",
@@ -112,6 +126,8 @@ const eventList = [
     id: "8",
     eventname: "Surprising Event",
     type: "nontechnical",
+    eventStudentCoordinator: "",
+    eventStaffCoordinator: "",
     miniDescription: "ON SPOT !!!!",
     description: "ON SPOT REGISTRATION",
     rule: "alksdlkamd",

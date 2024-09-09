@@ -116,3 +116,15 @@
   background-color:blue;
   border:none;
 }
+
+.eventDetail-info{
+  font-family:"SUSE", sans-serif;
+  letter-spacing:1px;
+  font-size:18px;
+}
+
+@media screen and (max-width: 1080px){
+  .eventDetail-info{
+    font-size:10px;
+  }
+}
