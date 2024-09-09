@@ -224,7 +224,8 @@ const ContactList = {
       id: 0,
       name: "Muhamed Suhail S J",
       tag: " ",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_300,h_300/v1725892666/unnamed_rew2k4.jpg",
       linkdinLink: "",
     },
     {

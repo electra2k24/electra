@@ -23,6 +23,7 @@
     background-color:transparent;
     border:none;
     color:white;
+    margin-top:10px;
     font-size:30px;
 }
 
@@ -34,5 +35,6 @@
 }
 
 .profile-name{
+    margin-top:5px;
     font-size:17px;
 }
