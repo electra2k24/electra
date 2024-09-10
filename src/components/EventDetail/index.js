@@ -9,8 +9,16 @@ const EventDetail = (props) => {
   const { eventList } = props;
   const filterList = eventList.filter((eachItem) => eachItem.id === id);
   console.log(filterList[0]);
-  const { registerform, eventImg, eventname, description, rule } =
-    filterList[0];
+  const {
+    registerform,
+    eventImg,
+    eventname,
+    description,
+    eventStudentCoordinator,
+    eventStaffCoordinator,
+    rule,
+    contactNumber,
+  } = filterList[0];
 
   return (
     <div className="eventDetail-bg-container">
@@ -19,9 +27,9 @@ const EventDetail = (props) => {
           <img src={eventImg} className="eventDetail-img" alt="Event Logo" />
           <div>
             <h1 className="eventDetail-heading">{eventname}</h1>
-            <p className="eventDetail-info">Event Student Coordinator : </p>
-            <p className="eventDetail-info">Event Staff Coordinator : </p>
-            <p className="eventDetail-info">Contact Detail : </p>
+            <p className="eventDetail-info">Event Staff Coordinator : {eventStaffCoordinator}</p>
+            <p className="eventDetail-info">Event Student Coordinator : {eventStudentCoordinator}</p>
+            <p className="eventDetail-info">Contact Detail : {contactNumber}</p>
           </div>
         </div>
         <div className="eventDetail-description-container">

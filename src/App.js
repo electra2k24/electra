@@ -12,7 +12,8 @@ const eventList = [
     id: "1",
     eventname: "Professor's Plan",
     type: "technical",
-    eventStudentCoordinator: "",
+    contactNumber: "",
+    eventStudentCoordinator: "Ashish Ragavendra",
     eventStaffCoordinator: "",
     miniDescription: "It is a paper presentation event",
     description:
@@ -22,13 +23,13 @@ const eventList = [
     eventlogo: "sdfkds",
     eventImg:
       "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
-    eventcordintor: "Ashish Ragavendra",
   },
   {
     id: "2",
     eventname: "Unmask Innovators",
     type: "technical",
-    eventStudentCoordinator: "",
+    eventStudentCoordinator: "Dhyanesh",
+    contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription:
       "Create ideas on-the-spot from SDG problems with unexpected twists",
@@ -39,13 +40,13 @@ const eventList = [
     eventlogo: "sdfkds",
     eventImg:
       "https://res.cloudinary.com/electra/image/upload/v1725469408/b0544a94777525.5e8728c2de1fc_oda_ypc1bt.png",
-    eventcordintor: "Dhyanesh",
   },
   {
     id: "3",
     eventname: "Electro Heist",
     type: "technical",
-    eventStudentCoordinator: "",
+    eventStudentCoordinator: "Arulmurugan",
+    contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription: "It is a ciruit debugguing and designing based event",
     description:
@@ -55,13 +56,13 @@ const eventList = [
     eventlogo: "sdfkds",
     eventImg:
       "https://res.cloudinary.com/electra/image/upload/v1725444879/wallpapersden.com_tokyo-money-heist-illustration_1920x1920_a3rbxw.jpg",
-    eventcordintor: "Arul Murugan",
   },
   {
     id: "4",
     eventname: "Heist Unveiled",
     type: "technical",
-    eventStudentCoordinator: "",
+    eventStudentCoordinator: "Ragavendiran",
+    contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription:
       "Unveiling the game-changing prototype: Where vision meets reality!",
@@ -72,13 +73,13 @@ const eventList = [
     eventlogo: "sdfkds",
     eventImg:
       "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
-    eventcordintor: "ragavendiran",
   },
   {
     id: "5",
     eventname: "Shutter Secrets",
     type: "nontechnical",
-    eventStudentCoordinator: "",
+    eventStudentCoordinator: "Rishikeshwaran",
+    contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription:
       "It is a photgraphy event, which need to come under SDG Goal",
@@ -88,13 +89,13 @@ const eventList = [
     eventlogo: "sdfkds",
     eventImg:
       "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
-    eventcordintor: "Ashish Ragavendra",
   },
   {
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
-    eventStudentCoordinator: "",
+    eventStudentCoordinator: "Roshni T",
+    contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription:
       "This event features three escalating levels of challenges, where only the strongest contenders will endure.",
@@ -105,14 +106,14 @@ const eventList = [
     eventlogo: "sdfkds",
     eventImg:
       "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
-    eventcordintor: "Roshni T",
   },
   {
     id: "7",
     eventname: "Bidding Quiz",
     type: "nontechnical",
-    eventStudentCoordinator: "",
+    eventStudentCoordinator: "Gokul G",
     eventStaffCoordinator: "",
+    contactNumber: "7550171768",
     miniDescription: "It is a paper presentation event",
     description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge`,
     rule: ["hi", "asdmkasmdasd", "asmdksma"],
@@ -120,13 +121,13 @@ const eventList = [
     eventlogo: "sdfkds",
     eventImg:
       "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
-    eventcordintor: "Gokul",
   },
   {
     id: "8",
     eventname: "Surprising Event",
     type: "nontechnical",
     eventStudentCoordinator: "",
+    contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription: "ON SPOT !!!!",
     description: "ON SPOT REGISTRATION",
@@ -190,7 +191,8 @@ const ContactList = {
       name: "Ashish Ragavendra N U",
       tag: " ",
       imgUrl: "",
-      linkdinLink: "",
+      linkdinLink:
+        "https://www.linkedin.com/in/ashish-ragavendra-n-u-31a90321b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 1,
@@ -217,8 +219,10 @@ const ContactList = {
       id: 4,
       name: "Gokul G",
       tag: "",
-      imgUrl: "",
-      linkdinLink: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_400,h_400,g_auto/v1725956627/1_vjbibh.jpg",
+      linkdinLink:
+        "https://www.linkedin.com/in/gokul-gopi-833a51258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 5,
@@ -242,7 +246,7 @@ const ContactList = {
       tag: " ",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/c_crop,w_300,h_300/v1725892666/unnamed_rew2k4.jpg",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/muhamedsuhailsj",
     },
     {
       id: 1,

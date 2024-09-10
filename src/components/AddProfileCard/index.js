@@ -3,7 +3,7 @@ import "./index.css";
 
 const AddProfile = (props) => {
   const { detail } = props;
-  const { name, imgUrl, tag } = detail;
+  const { name, imgUrl, tag, linkdinLink } = detail;
   return (
     <div className="profilecard">
       <img src={imgUrl} className="profileImage" alt="User" />
@@ -12,9 +12,11 @@ const AddProfile = (props) => {
         <p>{tag}</p>
       </div>
       <div>
-        <button className="porfileButton">
-          <FaLinkedin />
-        </button>
+        <a target="_blank" rel="noreferrer" href={linkdinLink}>
+          <button className="porfileButton">
+            <FaLinkedin />
+          </button>
+        </a>
       </div>
     </div>
   );
