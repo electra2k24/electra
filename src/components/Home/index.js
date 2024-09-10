@@ -29,9 +29,11 @@ export default class Home extends Component {
     return (
       <div className="bg-container">
         <div className="Header">
-          <h1 className="title">ELECTRA</h1>
+          <h1 className="title">
+            ELECTRA<span className="title-span"> 2K24 ‌</span>
+          </h1>
           <div className="info-container">
-            <p>19/08/2024</p>
+            <p>19|09|2024</p>
             <p>SYMPOSIUM</p>
             <p>
               <IoLocationSharp />

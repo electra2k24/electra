@@ -23,9 +23,14 @@
   padding: 0;
 }
 
+.title-span{
+  color:black;
+  background-color:rgba(226, 21, 21, 0.8);
+}
+
 @media screen and (max-width: 1080px) {
   .title {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 50px;
   }
 }
