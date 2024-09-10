@@ -236,7 +236,8 @@ const ContactList = {
       id: 6,
       name: "Rishikeshwaran B R",
       tag: "",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_2000,h_2000,g_auto/v1725967348/IMG-20240910-WA0037_ftjrdw.jpg",
       linkdinLink: "",
     },
   ],
