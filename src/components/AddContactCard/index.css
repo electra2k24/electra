@@ -1,6 +1,6 @@
 .contactCardBg-container {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
   width: 500px;
   background-color: #000000bd;
   margin: 10px;

@@ -269,6 +269,7 @@ const ContactList = {
     {
       id: 0,
       name: "Diwakar V N",
+      contactNumber: "",
       tag: "President",
       imgUrl: "",
       linkdinLink: "",
@@ -276,13 +277,16 @@ const ContactList = {
     {
       id: 1,
       name: "Shanmathi M",
+      contactNumber: "9994675175",
       tag: "Vice-President",
-      imgUrl: "",
-      linkdinLink: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_700,h_700,g_auto/v1725976812/209faedc-14aa-426a-b0d3-f66182eb7cff.png",
+      linkdinLink: "https://linkedin.com/in/shanmathi-m-ab8935257",
     },
     {
       id: 2,
       name: "Avinash A",
+      contactNumber: "",
       tag: "Secretary",
       imgUrl: "",
       linkdinLink: "",
@@ -290,9 +294,10 @@ const ContactList = {
     {
       id: 3,
       name: "Vignesh L",
+      contactNumber: "6381273013",
       tag: "Treasurer",
       imgUrl:
-        "https://res.cloudinary.com/electra/image/upload/v1725963271/1_uzkjsd.jpg",
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_450,h_450,g_auto/v1725963271/1_uzkjsd.jpg",
       linkdinLink: "",
     },
   ],
