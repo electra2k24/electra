@@ -206,7 +206,7 @@ const ContactList = {
       id: 2,
       name: "Arulmurugan N R",
       tag: "",
-      imgUrl: "",
+      imgUrl: "https://res.cloudinary.com/electra/image/upload/c_crop,w_2500,h_2500,ar_1:1,g_auto/v1725985480/IMG-20240910-WA0063_qz5wlr.jpg",
       linkdinLink: "https://www.linkedin.com/in/arulmurugan-n-r-b24339259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
@@ -256,7 +256,7 @@ const ContactList = {
       id: 1,
       name: "Dhyanesh D",
       tag: " ",
-      imgUrl: "",
+      imgUrl: "https://res.cloudinary.com/electra/image/upload/c_crop,w_2060,h_2060/v1725984679/1725978003058_pfcvab.jpg",
       linkdinLink: "https://linkedin.com/in/dhyaneshd",
     },
     {
