@@ -148,7 +148,7 @@ const ContactList = {
       tag: "CEO",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/sairam_ceo.0a9b6b511fc2cf277097_ccpzxa.png",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/sairamceo",
     },
     {
       id: 1,
@@ -156,7 +156,7 @@ const ContactList = {
       tag: "Principal",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/v1725871343/sit-principal_qy2rvs.webp",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/dr-palanikumar-k-5ba50827",
     },
     {
       id: 2,
@@ -164,7 +164,7 @@ const ContactList = {
       tag: "HOD",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/v1725871686/1820842_jxikrt.jpg",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/dr-prakash-ganesan-7882671aa",
     },
   ],
   Master: [
@@ -174,7 +174,7 @@ const ContactList = {
       tag: "Coordinator",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/citations_iax237.jpg",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/sasikala-arumugham-8b1031a2",
     },
     {
       id: 1,
@@ -182,7 +182,7 @@ const ContactList = {
       tag: "Coordinator",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/204668_mx8wt8.jpg",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/anbazhagan-a-b54307a7",
     },
   ],
   students: [
@@ -190,9 +190,10 @@ const ContactList = {
       id: 0,
       name: "Ashish Ragavendra N U",
       tag: " ",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_pad,b_gen_fill,w_300,h_300/v1725958801/1_vxfdkd.jpg",
       linkdinLink:
-        "https://www.linkedin.com/in/ashish-ragavendra-n-u-31a90321b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "https://www.linkedin.com/in/ashish-ragavendra-n-u-31a90321b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app+",
     },
     {
       id: 1,
@@ -253,7 +254,15 @@ const ContactList = {
       name: "Dhyanesh D",
       tag: " ",
       imgUrl: "",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/dhyaneshd",
+    },
+    {
+      id: 2,
+      name: "Somesh D",
+      tag: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/1714661230209_gnr2xg.jpg",
+      linkdinLink: "https://linkedin.com/in/someshdharmalingam",
     },
   ],
   officeMembers: [
