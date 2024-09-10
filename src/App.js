@@ -199,15 +199,15 @@ const ContactList = {
       id: 1,
       name: "Dhyanesh D",
       tag: "",
-      imgUrl: "",
-      linkdinLink: "",
+      imgUrl: "https://res.cloudinary.com/electra/image/upload/v1725984679/1725978003058_pfcvab.jpg",
+      linkdinLink: "www.linkedin.com/in/dhyaneshd",
     },
     {
       id: 2,
       name: "Arulmurugan N R",
       tag: "",
       imgUrl: "",
-      linkdinLink: "",
+      linkdinLink: "https://www.linkedin.com/in/arulmurugan-n-r-b24339259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 3,
