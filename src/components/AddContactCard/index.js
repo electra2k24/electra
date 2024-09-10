@@ -6,7 +6,7 @@ const AddContact = (props) => {
   return (
     <div className="contactCardBg-container">
       <div className="contact-section">
-        <img src={imgUrl} className="profileImage" alt="User" />
+        <img src={imgUrl} className="contactImage" alt="User" />
         <div>
           <h1>{name}</h1>
           <p>{tag}</p>

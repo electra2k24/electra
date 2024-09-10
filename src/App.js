@@ -214,7 +214,7 @@ const ContactList = {
       name: "Ragavendiran P",
       tag: "",
       imgUrl: "",
-      linkdinLink: "",
+      linkdinLink: "https://linkedin.com/in/ragavendiran-p-89b632257",
     },
     {
       id: 4,
@@ -290,8 +290,9 @@ const ContactList = {
     {
       id: 3,
       name: "Vignesh L",
-      tag: "Treasure",
-      imgUrl: "",
+      tag: "Treasurer",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/v1725963271/1_uzkjsd.jpg",
       linkdinLink: "",
     },
   ],
