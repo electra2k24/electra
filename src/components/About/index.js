@@ -3,7 +3,7 @@ import "./index.css";
 const About = () => (
   <div className="about-container">
     <h1 className="about-heading">
-      Sri<span className="heading-span"> SaiRam </span>Institue of Technology
+      Sri<span className="heading-span"> SaiRam </span>Institute of Technology
     </h1>
     <div className="about-description">
       <p className="aboutheader">About :</p>
