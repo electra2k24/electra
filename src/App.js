@@ -94,7 +94,7 @@ const eventList = [
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
-    eventStudentCoordinator: "Roshni T",
+    eventStudentCoordinator: "Roshni Thiruvengadam",
     contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription:
@@ -228,7 +228,7 @@ const ContactList = {
     },
     {
       id: 5,
-      name: "Roshni T",
+      name: "Roshni Thiruvengadam",
       tag: "",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/c_fill,w_600,h_600,e_improve/v1725978639/eabc547c-5cdc-4eef-997f-5f6e47674d7a.png",
