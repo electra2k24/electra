@@ -213,7 +213,8 @@ const ContactList = {
       id: 3,
       name: "Ragavendiran P",
       tag: "",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_fill,w_300,h_300,g_auto/v1725967408/IMG-20240910-WA0027_blddz0.jpg",
       linkdinLink: "https://linkedin.com/in/ragavendiran-p-89b632257",
     },
     {
@@ -229,8 +230,9 @@ const ContactList = {
       id: 5,
       name: "Roshni T",
       tag: "",
-      imgUrl: "",
-      linkdinLink: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_fill,w_600,h_600,e_improve/v1725978639/eabc547c-5cdc-4eef-997f-5f6e47674d7a.png",
+      linkdinLink: "https://linkedin.com/in/roshni-thiruvengadam-103853257",
     },
     {
       id: 6,
