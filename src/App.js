@@ -199,7 +199,7 @@ const ContactList = {
       id: 1,
       name: "Dhyanesh D",
       tag: "",
-      imgUrl: "https://res.cloudinary.com/electra/image/upload/v1725984679/1725978003058_pfcvab.jpg",
+      imgUrl: "https://res.cloudinary.com/electra/image/upload/c_crop,w_2060,h_2060/v1725984679/1725978003058_pfcvab.jpg",
       linkdinLink: "www.linkedin.com/in/dhyaneshd",
     },
     {
