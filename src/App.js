@@ -111,9 +111,16 @@ const eventList = [
     contactNumber: "8870790122",
     eventStaffCoordinator: "Mr.Rathnavel",
     miniDescription:
-      "It is a photgraphy event, which need to come under SDG Goal",
-    description: "It is a paper presentation event",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+      "Showcase SDG achievements through powerful photography; inspire sustainable action globally.",
+    description:
+      "Photographic event focused on Sustainable Development Goals (SDGs) would showcase images highlighting various aspects of sustainability. For example, it could feature photos of renewable energy projects (SDG 7: Affordable and Clean Energy), community-driven recycling initiatives (SDG 12: Responsible Consumption and Production), or local conservation efforts (SDG 15: Life on Land). This event promote the sustainable development goals(SDG) in our photographic event.",
+    rule: [
+      "Photo should be maximum 4 to 6",
+      "More than 6 will be disqualified",
+      "Photo should be story based on sdg goal ( if not points will be less)",
+      "Photo should not be colourgraded or edited",
+      "In the event photos should be explained (ppt presentation),Based on the presentation marks will be awarded",
+    ],
     registerform: "https://forms.gle/EmNSpM15tbqXApoX9",
     eventlogo: "sdfkds",
     eventImg:
@@ -153,9 +160,19 @@ const eventList = [
     eventStudentCoordinator: "Gokul G",
     eventStaffCoordinator: "Dr.E.Maheswari",
     contactNumber: "7550171768",
-    miniDescription: "It is a paper presentation event",
+    miniDescription:
+      "Bidding Quiz: Wager points, answer questions, strategize, win with knowledge.",
     description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge`,
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+    rule: [
+      "Objective: Aim to accumulate the most points by the end of the game through strategic bidding and correct answers.",
+      "Game Setup: All teams start with an equal number of points (e.g., 100 points), and the quiz is divided into multiple rounds.",
+      "Bidding Process: Teams bid a number of points (their wise) before seeing the question.",
+      "Answering Questions: After bidding, teams are shown the question and have a limited time to say their answers.",
+      "Scoring: Correct answers add the bid points to a team's score, while incorrect answers subtract the bid points.",
+      "Winning the Game: The team with the highest score after all rounds wins the game.",
+      "Tiebreaker: If there’s a tie, a final question is used to determine the winner, with teams bidding all their remaining points.",
+      "Fair Play: Cheating or discussing answer with other teams may result in disqualification.",
+    ],
     registerform: "https://forms.gle/mS8KSmS8fyviPR586",
     eventlogo: "sdfkds",
     eventImg:
