@@ -19,12 +19,12 @@ const eventList = [
     description:
       "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
     rule: [
-      "TEAM SIZE: 3-4(per team)",
-      "PPT SLIDE SHOULD BE IN MIN 5-15 SLIDES",
-      "TAKE NECESSARY ITEMS FOR THE PRESENTATION (LAPTOPS,CHARGERS,POSTERS,CHARTS,ETC,.)",
-      "PRESENTATION TIMING 7MINS (per team) ",
-      "IDEAS MUST BE RELATED TO SDG (17 GOALS)",
-      "ALL SHOULD ATTACH YOUR IDEA PPT IN THE GIVEN GOOGLE FORM ITSELF",
+      "Team Size: 3-4(Per Team)",
+      "PPT Slide Should Be In Min 5-15 Slides",
+      "Take Necessary Items For The Presentation (Laptops,Chargers,Posters,Charts,Etc,.)",
+      "Presentation Timing 7mins (Per Team) ",
+      "Ideas Must Be Related To Sdg (17 Goals)",
+      "All Should Attach Your Idea Ppt In The Given Google Form Itself",
     ],
     registerform: "https://forms.gle/NuwqhZaWG95AFBdP9",
     eventlogo: "sdfkds",

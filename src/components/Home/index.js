@@ -61,7 +61,7 @@ export default class Home extends Component {
             </Link>
             <Link to="/event">
               <div>
-                <button className="right-button">EVENT</button>
+                <button className="right-button">EVENTS</button>
               </div>
             </Link>
             <Link to="/coordinator">
