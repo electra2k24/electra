@@ -44,7 +44,7 @@ export default class Home extends Component {
         <div className="HomePage-container">
           <button className="left-button">
             {/* <FiArrowUpLeft /> */}
-            Registration Closes on 16/09
+            Registration Closes on 17/09
           </button>
           <div className="time-container">
             <p>{`Days : ${date.days === undefined ? 0 : date.days} | Hours : ${
