@@ -29,7 +29,7 @@ const eventList = [
     registerform: "https://forms.gle/NuwqhZaWG95AFBdP9",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_500,h_500,g_auto/v1726065551/wp5854922_huf6bn.jpg",
   },
   {
     id: "2",
@@ -53,7 +53,7 @@ const eventList = [
     registerform: "https://forms.gle/naXPGSaZKYPkxG9J9",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/v1725469408/b0544a94777525.5e8728c2de1fc_oda_ypc1bt.png",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_400,h_400,g_auto/v1725695810/IMG-20240906-WA0011_m2jyqy.jpg",
   },
   {
     id: "3",
@@ -77,7 +77,7 @@ const eventList = [
     registerform: "https://forms.gle/4bSv313WGsja6mFd9",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/v1725444879/wallpapersden.com_tokyo-money-heist-illustration_1920x1920_a3rbxw.jpg",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_800,h_800,g_auto/v1725444879/wallpapersden.com_tokyo-money-heist-illustration_1920x1920_a3rbxw.jpg",
   },
   {
     id: "4",
@@ -95,13 +95,12 @@ const eventList = [
       "Prototype must be completed above 50%",
       "Projects must be Innovative,social impact, unique and non existing projects.",
       "Participants bring their own laptop for presentation",
-      "Teams with girl member will receive extra points",
       "Project should include SDG",
     ],
     registerform: "https://forms.gle/nL5HLkQbRy7dUCgS6",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_400,h_400,g_auto/v1725695810/IMG-20240906-WA0012_pilk77.jpg",
   },
   {
     id: "5",
@@ -124,7 +123,7 @@ const eventList = [
     registerform: "https://forms.gle/EmNSpM15tbqXApoX9",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_600,h_600,g_auto/v1725695810/IMG-20240906-WA0015_w7u0sv.jpg",
   },
   {
     id: "6",
@@ -146,12 +145,12 @@ const eventList = [
       "Progress: Complete all to advance.",
       "Winning: Most points win; fastest team breaks ties.",
       "Fair Play: Cheating = disqualification.",
-      "9. End: Game ends after final level, winners based on points and time.",
+      "End: Game ends after final level, winners based on points and time.",
     ],
     registerform: "https://forms.gle/ZqXN1bM85CYPNBGK9",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_700,h_700,g_auto/v1725695810/IMG-20240906-WA0013_vazl0x.jpg",
   },
   {
     id: "7",
@@ -162,7 +161,7 @@ const eventList = [
     contactNumber: "7550171768",
     miniDescription:
       "Bidding Quiz: Wager points, answer questions, strategize, win with knowledge.",
-    description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge`,
+    description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge.`,
     rule: [
       "Objective: Aim to accumulate the most points by the end of the game through strategic bidding and correct answers.",
       "Game Setup: All teams start with an equal number of points (e.g., 100 points), and the quiz is divided into multiple rounds.",
@@ -176,7 +175,7 @@ const eventList = [
     registerform: "https://forms.gle/mS8KSmS8fyviPR586",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_700,h_700,g_auto/v1725695810/IMG-20240906-WA0014_k162oh.jpg",
   },
   {
     id: "8",
@@ -191,7 +190,7 @@ const eventList = [
     registerform: "On Spot",
     eventlogo: "sdfkds",
     eventImg:
-      "https://res.cloudinary.com/electra/image/upload/berlin_gsmz0m.jpg",
+      "https://res.cloudinary.com/electra/image/upload/c_crop,w_200,h_200,g_auto/v1725290955/berlin_gsmz0m.jpg",
     eventcordintor: "",
   },
 ];
@@ -273,7 +272,7 @@ const ContactList = {
       name: "Ragavendiran P",
       tag: "",
       imgUrl:
-        "https://res.cloudinary.com/electra/image/upload/c_fill,w_300,h_300,g_auto/v1725967408/IMG-20240910-WA0027_blddz0.jpg",
+        "https://res.cloudinary.com/electra/image/upload/v1726065960/1708957897226_vgwsoq.jpg",
       linkdinLink: "https://linkedin.com/in/ragavendiran-p-89b632257",
     },
     {
