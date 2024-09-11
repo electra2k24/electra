@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const AddEventItem = (props) => {
   const { eventDetail } = props;
-  const {eventImg, id, eventname, miniDescription } = eventDetail;
+  const { eventImg, id, eventname, miniDescription } = eventDetail;
   return (
     <div className="eventdexcripsd">
       <div className="eventdescription-container">
@@ -15,7 +15,7 @@ const AddEventItem = (props) => {
           <div className="event-buttom-container">
             <div className="eventinfo">
               <p>{miniDescription}</p>
-              <p>10:30</p>
+              <p></p>
             </div>
             <div className="register-button-container">
               <Link to={`/events/${id}`}>

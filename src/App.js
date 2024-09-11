@@ -230,7 +230,7 @@ const ContactList = {
       name: "Ashish Ragavendra N U",
       tag: " ",
       imgUrl:
-        "https://res.cloudinary.com/electra/image/upload/c_crop,w_720,h_720,g_auto/v1725989494/file_c96oy5.jpg",
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_720,h_720/v1726049317/file_c96oy5_1_tqzi9u.jpg",
       linkdinLink:
         "https://www.linkedin.com/in/ashish-ragavendra-n-u-31a90321b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app+",
     },
