@@ -12,9 +12,9 @@ const eventList = [
     id: "1",
     eventname: "Professor's Plan",
     type: "technical",
-    contactNumber: "",
+    contactNumber: "8667569656",
     eventStudentCoordinator: "Ashish Ragavendra",
-    eventStaffCoordinator: "",
+    eventStaffCoordinator: "Dr.Jagadeesh Kumar",
     miniDescription: "It is a paper presentation event",
     description:
       "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
@@ -30,7 +30,7 @@ const eventList = [
     type: "technical",
     eventStudentCoordinator: "Dhyanesh",
     contactNumber: "9940450563",
-    eventStaffCoordinator: "",
+    eventStaffCoordinator: "Dr.S.Sivarajeswari",
     miniDescription:
       "Create ideas on-the-spot from SDG problems with unexpected twists",
     description:
@@ -53,8 +53,8 @@ const eventList = [
     eventname: "Electro Heist",
     type: "technical",
     eventStudentCoordinator: "Arulmurugan",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    contactNumber: "7904289344",
+    eventStaffCoordinator: "Ms.N.Shanthi",
     miniDescription: "It is a ciruit debugguing and designing based event",
     description:
       "Join us for an engaging and hands-on symposium on Circuit Designing and Debugging using Tinkercad, a powerful online tool for creating and simulating electronic circuits. This event is perfect for students, enthusiasts, and professionals eager to enhance their skills in circuit design and troubleshooting.",
@@ -69,8 +69,8 @@ const eventList = [
     eventname: "Heist Unveiled",
     type: "technical",
     eventStudentCoordinator: "Ragavendiran",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    contactNumber: "9786668578",
+    eventStaffCoordinator: "Dr.T.Muthamizhan",
     miniDescription:
       "Unveiling the game-changing prototype: Where vision meets reality!",
     description:
@@ -86,8 +86,8 @@ const eventList = [
     eventname: "Shutter Secrets",
     type: "nontechnical",
     eventStudentCoordinator: "Rishikeshwaran",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    contactNumber: "8870790122",
+    eventStaffCoordinator: "Mr.Rathnavel",
     miniDescription:
       "It is a photgraphy event, which need to come under SDG Goal",
     description: "It is a paper presentation event",
@@ -101,9 +101,9 @@ const eventList = [
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
-    eventStudentCoordinator: "Roshni T",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    eventStudentCoordinator: "Roshni Thiruvengadam",
+    contactNumber: "6382364001",
+    eventStaffCoordinator: "Ms.G.Ezhilarasi",
     miniDescription:
       "This event features three escalating levels of challenges, where only the strongest contenders will endure.",
     description:
@@ -119,7 +119,7 @@ const eventList = [
     eventname: "Bidding Quiz",
     type: "nontechnical",
     eventStudentCoordinator: "Gokul G",
-    eventStaffCoordinator: "",
+    eventStaffCoordinator: "Dr.E.Maheswari",
     contactNumber: "7550171768",
     miniDescription: "It is a paper presentation event",
     description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge`,
@@ -138,7 +138,7 @@ const eventList = [
     eventStaffCoordinator: "",
     miniDescription: "ON SPOT !!!!",
     description: "ON SPOT REGISTRATION",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+    rule: ["On Spot!!!!"],
     registerform: "On Spot",
     eventlogo: "sdfkds",
     eventImg:
@@ -238,7 +238,7 @@ const ContactList = {
     },
     {
       id: 5,
-      name: "Roshni T",
+      name: "Roshni Thiruvengadam",
       tag: "",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/c_fill,w_600,h_600,e_improve/v1725978639/eabc547c-5cdc-4eef-997f-5f6e47674d7a.png",
