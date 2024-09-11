@@ -29,13 +29,20 @@ const eventList = [
     eventname: "Unmask Innovators",
     type: "technical",
     eventStudentCoordinator: "Dhyanesh",
-    contactNumber: "",
+    contactNumber: "9940450563",
     eventStaffCoordinator: "",
     miniDescription:
       "Create ideas on-the-spot from SDG problems with unexpected twists",
     description:
-      "Get ready for on-the-spot idea creation, where you’ll tackle problem statements rooted in the Sustainable Development Goals (SDGs). Expect exciting twists during your PPT preparation that will test your creativity under pressure. Only the most innovative idea will rise to claim victory!t",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+      "Get ready for on-the-spot idea creation, where you’ll tackle problem statements rooted in the Sustainable Development Goals (SDGs). Expect exciting twists during your PPT preparation that will test your creativity under pressure. Only the most innovative idea will rise to claim victory!,SDG Goal Selection: Choose one of the 17 SDG goals,Problem Statement Assignment: A specific problem related to your chosen SDG will be provided.Idea Presentation: Brainstorm and present your solution. ",
+    rule: [
+      "2-4 members per team. Individual participation allowed.",
+      "No pre-prepared materials, Use only provided resources.",
+      "Work independently. No plagiarism.",
+      "SDG Goal Selection: Choose one of the 17 SDG goals.",
+      "Problem Statement Assignment: A specific problem related to your chosen SDG will be provided.",
+      "Idea Presentation: Brainstorm and present your solution.",
+    ],
     registerform: "https://forms.gle/naXPGSaZKYPkxG9J9",
     eventlogo: "sdfkds",
     eventImg:
@@ -94,7 +101,7 @@ const eventList = [
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
-    eventStudentCoordinator: "Roshni Thiruvengadam",
+    eventStudentCoordinator: "Roshni T",
     contactNumber: "",
     eventStaffCoordinator: "",
     miniDescription:
@@ -199,15 +206,18 @@ const ContactList = {
       id: 1,
       name: "Dhyanesh D",
       tag: "",
-      imgUrl: "https://res.cloudinary.com/electra/image/upload/c_crop,w_1500,h_1500,ar_1:1,g_auto/v1725984679/1725978003058_pfcvab.jpg",
-      linkdinLink: "www.linkedin.com/in/dhyaneshd",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_1500,h_1500,ar_1:1,g_auto/v1725984679/1725978003058_pfcvab.jpg",
+      linkdinLink: "https://linkedin.com/in/dhyaneshd",
     },
     {
       id: 2,
       name: "Arulmurugan N R",
       tag: "",
-      imgUrl: "https://res.cloudinary.com/electra/image/upload/c_crop,w_2500,h_2500,ar_1:1,g_auto/v1725985480/IMG-20240910-WA0063_qz5wlr.jpg",
-      linkdinLink: "https://www.linkedin.com/in/arulmurugan-n-r-b24339259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_2500,h_2500,ar_1:1,g_auto/v1725985480/IMG-20240910-WA0063_qz5wlr.jpg",
+      linkdinLink:
+        "https://www.linkedin.com/in/arulmurugan-n-r-b24339259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       id: 3,
@@ -228,7 +238,7 @@ const ContactList = {
     },
     {
       id: 5,
-      name: "Roshni Thiruvengadam",
+      name: "Roshni T",
       tag: "",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/c_fill,w_600,h_600,e_improve/v1725978639/eabc547c-5cdc-4eef-997f-5f6e47674d7a.png",
@@ -256,7 +266,8 @@ const ContactList = {
       id: 1,
       name: "Dhyanesh D",
       tag: " ",
-      imgUrl: "https://res.cloudinary.com/electra/image/upload/c_crop,w_2060,h_2060/v1725984679/1725978003058_pfcvab.jpg",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_1500,h_1500,ar_1:1,g_auto/v1725984679/1725978003058_pfcvab.jpg",
       linkdinLink: "https://linkedin.com/in/dhyaneshd",
     },
     {
@@ -272,9 +283,10 @@ const ContactList = {
     {
       id: 0,
       name: "Diwakar V N",
-      contactNumber: "",
+      contactNumber: "9841881470",
       tag: "President",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_300,h_300,g_auto/v1726034651/IMG-20240910-WA0033_lwo6uf.jpg",
       linkdinLink: "",
     },
     {
@@ -289,9 +301,10 @@ const ContactList = {
     {
       id: 2,
       name: "Avinash A",
-      contactNumber: "",
+      contactNumber: "6380287507",
       tag: "Secretary",
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_2060,h_2060,g_auto/v1726035390/Picsart_24-08-11_23-27-40-435_mjc8l8.jpg",
       linkdinLink: "",
     },
     {
