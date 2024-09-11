@@ -17,7 +17,7 @@ const eventList = [
     eventStaffCoordinator: "Dr.Jagadeesh Kumar",
     miniDescription: "It is a paper presentation event",
     description:
-      "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
+      "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!",
     rule: [
       "Team Size: 3-4(Per Team)",
       "PPT Slide Should Be In Min 5-15 Slides",
