@@ -12,13 +12,20 @@ const eventList = [
     id: "1",
     eventname: "Professor's Plan",
     type: "technical",
-    contactNumber: "",
+    contactNumber: "8667569656",
     eventStudentCoordinator: "Ashish Ragavendra",
-    eventStaffCoordinator: "",
+    eventStaffCoordinator: "Dr.Jagadeesh Kumar",
     miniDescription: "It is a paper presentation event",
     description:
       "Step into the spotlight at our dynamic Paper Presentation event, where innovation meets intellect. Present your groundbreaking research and bold ideas across diverse fields, captivating the judges with your insights, sharp analysis, and powerful delivery. This is your chance to showcase brilliance and stand out as the best—only the most compelling, cutting-edge papers will claim victory!t",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+    rule: [
+      "TEAM SIZE: 3-4(per team)",
+      "PPT SLIDE SHOULD BE IN MIN 5-15 SLIDES",
+      "TAKE NECESSARY ITEMS FOR THE PRESENTATION (LAPTOPS,CHARGERS,POSTERS,CHARTS,ETC,.)",
+      "PRESENTATION TIMING 7MINS (per team) ",
+      "IDEAS MUST BE RELATED TO SDG (17 GOALS)",
+      "ALL SHOULD ATTACH YOUR IDEA PPT IN THE GIVEN GOOGLE FORM ITSELF",
+    ],
     registerform: "https://forms.gle/NuwqhZaWG95AFBdP9",
     eventlogo: "sdfkds",
     eventImg:
@@ -30,7 +37,7 @@ const eventList = [
     type: "technical",
     eventStudentCoordinator: "Dhyanesh",
     contactNumber: "9940450563",
-    eventStaffCoordinator: "",
+    eventStaffCoordinator: "Dr.S.Sivarajeswari",
     miniDescription:
       "Create ideas on-the-spot from SDG problems with unexpected twists",
     description:
@@ -53,12 +60,20 @@ const eventList = [
     eventname: "Electro Heist",
     type: "technical",
     eventStudentCoordinator: "Arulmurugan",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    contactNumber: "7904289344",
+    eventStaffCoordinator: "Ms.N.Shanthi",
     miniDescription: "It is a ciruit debugguing and designing based event",
     description:
       "Join us for an engaging and hands-on symposium on Circuit Designing and Debugging using Tinkercad, a powerful online tool for creating and simulating electronic circuits. This event is perfect for students, enthusiasts, and professionals eager to enhance their skills in circuit design and troubleshooting.",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+    rule: [
+      "TEAM SIZE : 3-4(per team)",
+      "Round 1: Participants will be given a simple circuit with an error, which they must debug and correct.",
+      "Teams shortlisted from Round 1 will advance to Round 2, where they must design a circuit based on a given problem statement.",
+      "The team with the best-designed circuit will be awarded.",
+      "Predefined circuits are not allowed.",
+      "The use of online resources is strictly prohibited.",
+      "Tinker account shouldbe created(FREE!!!)",
+    ],
     registerform: "https://forms.gle/4bSv313WGsja6mFd9",
     eventlogo: "sdfkds",
     eventImg:
@@ -69,13 +84,20 @@ const eventList = [
     eventname: "Heist Unveiled",
     type: "technical",
     eventStudentCoordinator: "Ragavendiran",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    contactNumber: "9786668578",
+    eventStaffCoordinator: "Dr.T.Muthamizhan",
     miniDescription:
       "Unveiling the game-changing prototype: Where vision meets reality!",
     description:
       "Join us for an exciting symposium where we showcase groundbreaking innovations and prototype models developed by creative minds. This event will feature project presentations that highlight the innovative solutions addressing real-world challenges. Participants will have the opportunity to present their prototype models, explain the technological advancements, and demonstrate how their innovations can make a significant impact across various fields.",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+    rule: [
+      "No. of Participant 3-4",
+      "Prototype must be completed above 50%",
+      "Projects must be Innovative,social impact, unique and non existing projects.",
+      "Participants bring their own laptop for presentation",
+      "Teams with girl member will receive extra points",
+      "Project should include SDG",
+    ],
     registerform: "https://forms.gle/nL5HLkQbRy7dUCgS6",
     eventlogo: "sdfkds",
     eventImg:
@@ -86,8 +108,8 @@ const eventList = [
     eventname: "Shutter Secrets",
     type: "nontechnical",
     eventStudentCoordinator: "Rishikeshwaran",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    contactNumber: "8870790122",
+    eventStaffCoordinator: "Mr.Rathnavel",
     miniDescription:
       "It is a photgraphy event, which need to come under SDG Goal",
     description: "It is a paper presentation event",
@@ -101,14 +123,24 @@ const eventList = [
     id: "6",
     eventname: "Vault Breakout",
     type: "nontechnical",
-    eventStudentCoordinator: "Roshni T",
-    contactNumber: "",
-    eventStaffCoordinator: "",
+    eventStudentCoordinator: "Roshni Thiruvengadam",
+    contactNumber: "6382364001",
+    eventStaffCoordinator: "Ms.G.Ezhilarasi",
     miniDescription:
       "This event features three escalating levels of challenges, where only the strongest contenders will endure.",
     description:
       "Embark on a thrilling adventure with your team of three in this unique escape room experience. Solve a series of puzzles and challenges inspired by the popular heist drama Money Heist. Each room is divided into three sections, each with its own unique theme and set of challenges. Work together to find hidden clues, crack codes, and overcome obstacles to progress to the next level. With limited time and increasing difficulty, this immersive experience will test your problem-solving skills, teamwork, and strategic thinking. Are you ready to accept the challenge and break out of the vault?",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+    rule: [
+      "Teams: 2-4 members.",
+      "Levels: 3 levels—Small, Medium, Hard.",
+      "Mini-Games: 3 per level.",
+      "Points: Earn by completing mini-games.",
+      "Time: Finish within the time limit.",
+      "Progress: Complete all to advance.",
+      "Winning: Most points win; fastest team breaks ties.",
+      "Fair Play: Cheating = disqualification.",
+      "9. End: Game ends after final level, winners based on points and time.",
+    ],
     registerform: "https://forms.gle/ZqXN1bM85CYPNBGK9",
     eventlogo: "sdfkds",
     eventImg:
@@ -119,7 +151,7 @@ const eventList = [
     eventname: "Bidding Quiz",
     type: "nontechnical",
     eventStudentCoordinator: "Gokul G",
-    eventStaffCoordinator: "",
+    eventStaffCoordinator: "Dr.E.Maheswari",
     contactNumber: "7550171768",
     miniDescription: "It is a paper presentation event",
     description: `A "Bidding Quiz" is a quiz game where players not only answer questions but also wager points based on their confidence in their answers. Before each question is revealed, participants decide how many points to bid. If they answer correctly, they gain those points; if they’re wrong, they lose them. This adds a strategic element, as players must weigh the risks and rewards with each bid. Special rounds might introduce twists, such as double points or no penalties for wrong answers, keeping the game exciting. The player or team with the highest score at the end wins. The Bidding Quiz is ideal for educational settings, corporate training, or competitive game nights, combining knowledge with strategic decision-making for a unique challenge`,
@@ -138,7 +170,7 @@ const eventList = [
     eventStaffCoordinator: "",
     miniDescription: "ON SPOT !!!!",
     description: "ON SPOT REGISTRATION",
-    rule: ["hi", "asdmkasmdasd", "asmdksma"],
+    rule: ["On Spot!!!!"],
     registerform: "On Spot",
     eventlogo: "sdfkds",
     eventImg:
@@ -198,7 +230,7 @@ const ContactList = {
       name: "Ashish Ragavendra N U",
       tag: " ",
       imgUrl:
-        "https://res.cloudinary.com/electra/image/upload/c_crop,w_300,h_300,g_auto/v1725975621/1_gm5pxa.jpg",
+        "https://res.cloudinary.com/electra/image/upload/c_crop,w_720,h_720,g_auto/v1725989494/file_c96oy5.jpg",
       linkdinLink:
         "https://www.linkedin.com/in/ashish-ragavendra-n-u-31a90321b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app+",
     },
@@ -238,7 +270,7 @@ const ContactList = {
     },
     {
       id: 5,
-      name: "Roshni T",
+      name: "Roshni Thiruvengadam",
       tag: "",
       imgUrl:
         "https://res.cloudinary.com/electra/image/upload/c_fill,w_600,h_600,e_improve/v1725978639/eabc547c-5cdc-4eef-997f-5f6e47674d7a.png",
