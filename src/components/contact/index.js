@@ -1,7 +1,8 @@
 import AddContact from "../AddContactCard";
 import { FaInstagramSquare } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
 import "./index.css";
 
 const Contact = (props) => {
@@ -29,13 +30,27 @@ const Contact = (props) => {
           ></iframe>
         </p>
         <div className="contactdetail-description">
-          <div>
-            <h1>Contact info</h1>
-            <div>
-              <FaInstagramSquare />
-              <MdEmail />
-              <FaLinkedin />
+          <h1>Contact</h1>
+          <hr />
+          <div className="followbutton-container">
+            <h2 className="followbutton-heading">Follow us</h2>
+            <div className="followbuttons">
+              <FaInstagramSquare className="followButton" />
+              <IoIosMail className="followButton" />
+              <FaLinkedin className="followButton" />
             </div>
+          </div>
+          <div className="section-2">
+            <h4>
+              Website Created By: Muhamed Suhail S J <FaInstagram />
+            </h4>
+            <h4>
+              Website Designed By: Dhyanesh D <FaInstagram />
+            </h4>
+          </div>
+          <div className="section-3">
+            <p>Electra Team</p>
+            <p>Department Of Electrical and Electronics</p>
           </div>
         </div>
       </div>

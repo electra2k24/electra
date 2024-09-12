@@ -34,11 +34,33 @@
 }
 
 .contactdetail-description{
+  width:100% ;
   color: wheat;
+
 }
 
 @media screen and (min-width:1080px) {
   .contactdetail-description{
     margin-left:40px;
   }
+}
+
+.followbuttons{
+  font-size:40px;
+  display:flex;
+}
+
+.followButton{
+  margin-right:20px;
+}
+
+.section-2{
+  color:blanchedalmond;
+  font-family:Teko;
+  font-size:20px;
+}
+
+.section-3{
+  color:rgb(229, 212, 212);
+  font-family:Impact;
 }

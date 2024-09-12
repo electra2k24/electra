@@ -318,14 +318,14 @@ const ContactList = {
         "https://res.cloudinary.com/electra/image/upload/c_crop,w_1500,h_1500,ar_1:1,g_auto/v1725984679/1725978003058_pfcvab.jpg",
       linkdinLink: "https://linkedin.com/in/dhyaneshd",
     },
-    {
-      id: 2,
-      name: "Somesh D",
-      tag: "",
-      imgUrl:
-        "https://res.cloudinary.com/electra/image/upload/1714661230209_gnr2xg.jpg",
-      linkdinLink: "https://linkedin.com/in/someshdharmalingam",
-    },
+      {
+        id: 2,
+        name: "Somesh D",
+        tag: "",
+        imgUrl:
+          "https://res.cloudinary.com/electra/image/upload/1714661230209_gnr2xg.jpg",
+        linkdinLink: "https://linkedin.com/in/someshdharmalingam",
+      },
   ],
   officeMembers: [
     {
