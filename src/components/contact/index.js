@@ -42,10 +42,30 @@ const Contact = (props) => {
           </div>
           <div className="section-2">
             <h4>
-              Website Created By: Muhamed Suhail S J <FaInstagram />
+              Website Created By: Muhamed Suhail S J{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/suhailx._06/ "
+                className="contactfollow-button"
+              >
+                <button className="followbutton">
+                  <FaInstagram />
+                </button>
+              </a>
             </h4>
             <h4>
-              Website Designed By: Dhyanesh D <FaInstagram />
+              Website Designed By: Dhyanesh D
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/dhyaneshdurai01/"
+                className="contactfollow-button"
+              >
+                <button className="followbutton">
+                  <FaInstagram />
+                </button>
+              </a>
             </h4>
           </div>
           <div className="section-3">

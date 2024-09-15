@@ -64,3 +64,15 @@
   color:rgb(229, 212, 212);
   font-family:Impact;
 }
+
+.contactfollow-button{
+  padding-top:20px;
+  color:white;
+}
+
+.followbutton{
+  background-color:transparent;
+  color:white;
+  border:none;
+  font-size:20px;
+}
