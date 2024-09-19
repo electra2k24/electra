@@ -47,11 +47,11 @@ export default class Home extends Component {
             Registration Closed
           </button>
           <div className="time-container">
-            <p>{`Days : ${date.days === undefined ? 0 : date.days} | Hours : ${
-              date.hours === undefined ? 0 : date.hours
+            <p>{`Days : ${date.days === undefined ? 0 : 0} | Hours : ${
+              date.hours === undefined ? 0 : 0
             } | Minutes : ${
-              date.minutes === undefined ? 0 : date.minutes
-            } | Seconds : ${date.seconds === undefined ? 0 : date.seconds}`}</p>
+              date.minutes === undefined ? 0 : 0
+            } | Seconds : ${date.seconds === undefined ? 0 : 0}`}</p>
           </div>
           <div className="HomePage-Button">
             <Link to="/about">
